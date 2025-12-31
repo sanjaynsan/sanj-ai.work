@@ -1,0 +1,107 @@
+[
+  {
+    "id": "fabrication_01_clay-printing",
+    "title": "Clay Printing",
+    "year": 2024,
+    "category": "Fabrication",
+    "order": 1,
+    "coverImage": "projects\\FABRICATION_01_CLAY PRINTING/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects\\FABRICATION_01_CLAY PRINTING/cover.png"
+      }
+    ]
+  },
+  {
+    "id": "fabrication_02_germany-superdesign",
+    "title": "Germany Superdesign",
+    "year": 2024,
+    "category": "Fabrication",
+    "order": 2,
+    "coverImage": "projects\\FABRICATION_02_germany superdesign/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects\\FABRICATION_02_germany superdesign/cover.png"
+      }
+    ]
+  },
+  {
+    "id": "pi_01_heat-archipelogoes",
+    "title": "Heat Archipelogoes",
+    "year": 2024,
+    "category": "Planetary Computation",
+    "order": 1,
+    "coverImage": "projects\\PI_01_HEAT ARCHIPELOGOES/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects\\PI_01_HEAT ARCHIPELOGOES/cover.png"
+      }
+    ]
+  },
+  {
+    "id": "pi_02_fire-losangelos",
+    "title": "Fire Losangelos",
+    "year": 2024,
+    "category": "Planetary Computation",
+    "order": 2,
+    "coverImage": "projects\\PI_02_FIRE LOSANGELOS/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects\\PI_02_FIRE LOSANGELOS/cover.png"
+      }
+    ]
+  },
+  {
+    "id": "urban_01_mobility-check",
+    "title": "Mobility Check",
+    "year": 2024,
+    "category": "Urban Computation",
+    "order": 1,
+    "coverImage": "projects\\URBAN_01_MOBILITY CHECK/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects\\URBAN_01_MOBILITY CHECK/cover.png"
+      }
+    ]
+  },
+  {
+    "id": "urban_02_safety-maps",
+    "title": "Safety Maps",
+    "year": 2024,
+    "category": "Urban Computation",
+    "order": 2,
+    "coverImage": "projects\\URBAN_02_SAFETY MAPS/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects\\URBAN_02_SAFETY MAPS/cover.png"
+      }
+    ]
+  },
+  {
+    "id": "urban_03_sounds-of-gracie",
+    "title": "Sounds Of Gracie",
+    "year": 2024,
+    "category": "Urban Computation",
+    "order": 3,
+    "coverImage": "projects\\URBAN_03_SOUNDS OF GRACIE/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects\\URBAN_03_SOUNDS OF GRACIE/cover.png"
+      }
+    ]
+  }
+]
