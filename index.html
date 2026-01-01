@@ -1,44 +1,52 @@
-/* This is the markup for the About Me page */
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio 1</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Sanjaykumar</h1>
-    <p>Architecture / Computation / AI / Automation / Fabrication </p>
     <nav>
-      <a href="#work">Work</a>
-      <a href="#skills">Skills</a>
-      <a href="#about">About</a>
+      <a href="index.html" class="active">Work  </a>
+      <a href="skills.html">Skills</a>
+      <a href="awards.html">Awards</a>
+      <a href="about.html">About</a>
     </nav>
   </header>
 
   <main>
     <section id="work">
-      <h2>Work</h2>
+      <p>Urban Computation / Planetary Computation / Fabrication</p>
+      
       <div id="project-gallery" class="grid"></div>
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Generative Design</li>
-        <li>Digital Fabrication</li>
-        <li>Machine Learning</li>
-      </ul>
-    </section>
-
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Welcome to my portfolio. I specialize in architecture, computation, and AI-driven design.</p>
     </section>
   </main>
 
-  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const gallery = document.getElementById("project-gallery");
+
+      fetch("projects.json")
+        .then((response) => response.json())
+        .then((projects) => {
+          projects.forEach((project) => {
+            const card = document.createElement("figure");
+            card.className = "project-card";
+            card.innerHTML = `
+              <img src="${project.coverImage}" alt="${project.title}">
+              <figcaption>
+                <strong>${project.title}</strong><br>
+                ${project.category}<br>
+                ${project.year}
+              </figcaption>
+            `;
+            gallery.appendChild(card);
+          });
+        });
+    });
+  </script>
 </body>
 </html>

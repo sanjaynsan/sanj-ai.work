@@ -1,5 +1,6 @@
 :root {
-  --scale: 1;
+  --scale: 0.7;
+  --card-scale: 0.8;
 }
 
 body {
@@ -8,37 +9,54 @@ body {
   margin: 0;
   background: #fff;
   color: #333;
+  text-align: left;
+  padding-top: 2rem;
+  padding-right: 30rem;
 }
 
 header {
   position: fixed;
-  top: 0;
+  top: 0.5rem;
   width: 100%;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
-  padding: 1rem;
-  text-align: center;
+  background: transparent;
+  padding-left: 1rem;
+  text-align: left;
   font-size: calc(1.2rem * var(--scale));
+  display: flex;
+  
+  align-items: baseline;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+  
+}
+
+header nav a.active {
+  color: red;
 }
 
 main {
-  padding-top: 5rem;
+  padding-top: 1rem;
+  padding-left:1rem;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(calc(300px * var(--card-scale)), 1fr));
+  gap: 0.01rem;
 }
 
 .project-card {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  border: 1px solid #ddd;
-  padding: 1rem;
-  background: #f9f9f9;
 }
 
 .project-card img {
@@ -49,6 +67,12 @@ main {
 
 .project-card:hover img {
   transform: scale(1.1);
+}
+
+.project-card figcaption {
+  text-align: left;
+  font-size: calc(1rem * var(--scale));
+  margin-top: 0.5rem;
 }
 
 .project-card .overlay {
@@ -68,7 +92,7 @@ main {
 }
 
 .project-card:hover .overlay {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 #project-details {

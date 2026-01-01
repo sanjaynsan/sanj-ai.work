@@ -1,106 +1,111 @@
 [
   {
-    "id": "fabrication_01_clay-printing",
+    "id": "fabrication_01_clay printing",
     "title": "Clay Printing",
-    "year": 2024,
     "category": "Fabrication",
     "order": 1,
-    "coverImage": "projects\\FABRICATION_01_CLAY PRINTING/cover.jpg",
+    "coverImage": "projects/FABRICATION_01_CLAY PRINTING/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects\\FABRICATION_01_CLAY PRINTING/cover.png"
+        "src": "projects/FABRICATION_01_CLAY PRINTING/01_image.gif"
       }
     ]
   },
   {
-    "id": "fabrication_02_germany-superdesign",
+    "id": "fabrication_02_germany superdesign",
     "title": "Germany Superdesign",
-    "year": 2024,
     "category": "Fabrication",
     "order": 2,
-    "coverImage": "projects\\FABRICATION_02_germany superdesign/cover.jpg",
+    "coverImage": "projects/FABRICATION_02_germany superdesign/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects\\FABRICATION_02_germany superdesign/cover.png"
+        "src": "projects/FABRICATION_02_germany superdesign/01_image.gif"
       }
     ]
   },
   {
-    "id": "pi_01_heat-archipelogoes",
+    "id": "pi_01_heat archipelogoes",
     "title": "Heat Archipelogoes",
-    "year": 2024,
-    "category": "Planetary Computation",
+    "category": "Other",
     "order": 1,
-    "coverImage": "projects\\PI_01_HEAT ARCHIPELOGOES/cover.jpg",
+    "coverImage": "projects/PI_01_HEAT ARCHIPELOGOES/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects\\PI_01_HEAT ARCHIPELOGOES/cover.png"
+        "src": "projects/PI_01_HEAT ARCHIPELOGOES/01_image.gif"
       }
     ]
   },
   {
-    "id": "pi_02_fire-losangelos",
+    "id": "pi_02_fire losangelos",
     "title": "Fire Losangelos",
-    "year": 2024,
-    "category": "Planetary Computation",
+    "category": "Other",
     "order": 2,
-    "coverImage": "projects\\PI_02_FIRE LOSANGELOS/cover.jpg",
+    "coverImage": "projects/PI_02_FIRE LOSANGELOS/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects\\PI_02_FIRE LOSANGELOS/cover.png"
+        "src": "projects/PI_02_FIRE LOSANGELOS/01_image.gif"
       }
     ]
   },
   {
-    "id": "urban_01_mobility-check",
+    "id": "urban_01_mobility check",
     "title": "Mobility Check",
-    "year": 2024,
     "category": "Urban Computation",
     "order": 1,
-    "coverImage": "projects\\URBAN_01_MOBILITY CHECK/cover.jpg",
+    "coverImage": "projects/URBAN_01_MOBILITY CHECK/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects\\URBAN_01_MOBILITY CHECK/cover.png"
+        "src": "projects/URBAN_01_MOBILITY CHECK/01_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_01_MOBILITY CHECK/02_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_01_MOBILITY CHECK/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_01_MOBILITY CHECK/04_image.jpg"
       }
     ]
   },
   {
-    "id": "urban_02_safety-maps",
+    "id": "urban_02_safety maps",
     "title": "Safety Maps",
-    "year": 2024,
     "category": "Urban Computation",
     "order": 2,
-    "coverImage": "projects\\URBAN_02_SAFETY MAPS/cover.jpg",
+    "coverImage": "projects/URBAN_02_SAFETY MAPS/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects\\URBAN_02_SAFETY MAPS/cover.png"
+        "src": "projects/URBAN_02_SAFETY MAPS/01_image.gif"
       }
     ]
   },
   {
-    "id": "urban_03_sounds-of-gracie",
+    "id": "urban_03_sounds of gracie",
     "title": "Sounds Of Gracie",
-    "year": 2024,
     "category": "Urban Computation",
     "order": 3,
-    "coverImage": "projects\\URBAN_03_SOUNDS OF GRACIE/cover.jpg",
+    "coverImage": "projects/URBAN_03_SOUNDS OF GRACIE/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects\\URBAN_03_SOUNDS OF GRACIE/cover.png"
+        "src": "projects/URBAN_03_SOUNDS OF GRACIE/01_image.gif"
       }
     ]
   }
