@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
           <h1>${project.title}</h1>
           <p><strong>Category:</strong> ${project.category}</p>
           <p>${project.description || "No description available."}</p>
-          <img src="${project.coverImage}" alt="${project.title}">
           ${project.media
             .map((media) => {
               if (media.type === "video") {
@@ -65,12 +64,37 @@ document.addEventListener("DOMContentLoaded", () => {
               } else if (media.type === "link") {
                 return `<a href="${media.src}" target="_blank">${media.src}</a>`;
               } else {
-                return `<img src="${media.src}" alt="">`;
+                return `<img src="${media.src}" alt="" class="zoomable">`;
               }
             })
             .join("")}
         `;
         projectDetails.classList.add("active");
+
+        // Add zoom functionality to images
+        const zoomableImages = document.querySelectorAll(".zoomable");
+        zoomableImages.forEach((img) => {
+          img.addEventListener("click", () => {
+            showZoomPopup(img.src);
+          });
+        });
+      }
+
+      function showZoomPopup(src) {
+        const popup = document.createElement("div");
+        popup.className = "zoom-popup";
+        popup.innerHTML = `
+          <img src="${src}" alt="Zoomed Image">
+          <span class="close">&times;</span>
+        `;
+        document.body.appendChild(popup);
+        popup.style.display = "block";
+
+        // Close functionality
+        popup.querySelector(".close").addEventListener("click", () => {
+          popup.style.display = "none";
+          document.body.removeChild(popup);
+        });
       }
     });
 });
