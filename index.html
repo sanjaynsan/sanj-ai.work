@@ -10,7 +10,7 @@
   <header>
     <h1>Sanjaykumar</h1>
     <nav>
-      <a href="index.html" class="active">Work  </a>
+      <a href="index.html" class="active">Work</a>
       <a href="skills.html">Skills</a>
       <a href="awards.html">Awards</a>
       <a href="about.html">About</a>
@@ -19,8 +19,15 @@
 
   <main>
     <section id="work">
-      <p>Urban Computation / Planetary Computation / Fabrication</p>
-      
+      <p style="padding-left: 2rem;">
+        <span class="filter active" data-category="All">All</span> /
+        <span class="filter" data-category="Urban Computation">Urban Computation</span> /
+        <span class="filter" data-category="Planetary Computation">Planetary Computation</span> /
+        <span class="filter" data-category="Fabrication">Fabrication</span>
+        <span class="filter" data-category="Architecture">Architecture</span>
+        <span class="filter" data-category="AEC Automation">AEC Automation</span>
+        <span class="filter" data-category="AEC AI">AEC AI</span>
+      </p>
       <div id="project-gallery" class="grid"></div>
     </section>
   </main>
@@ -28,24 +35,47 @@
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const gallery = document.getElementById("project-gallery");
+      const filters = document.querySelectorAll(".filter");
 
       fetch("projects.json")
         .then((response) => response.json())
         .then((projects) => {
-          projects.forEach((project) => {
-            const card = document.createElement("figure");
-            card.className = "project-card";
-            card.innerHTML = `
-              <img src="${project.coverImage}" alt="${project.title}">
-              <figcaption>
-                <strong>${project.title}</strong><br>
-                ${project.category}<br>
-                ${project.year}
-              </figcaption>
-            `;
-            gallery.appendChild(card);
+          // Display all projects initially
+          displayProjects(projects);
+
+          // Add filter functionality
+          filters.forEach((filter) => {
+            filter.addEventListener("click", (e) => {
+              const category = e.target.dataset.category;
+              // Update active class for filters
+              filters.forEach((f) => f.classList.remove("active"));
+              e.target.classList.add("active");
+
+              if (category === "All") {
+                displayProjects(projects);
+              } else {
+                displayProjects(projects.filter((p) => p.category === category));
+              }
+            });
           });
         });
+
+      function displayProjects(projects) {
+        gallery.innerHTML = ""; // Clear existing projects
+        projects.forEach((project) => {
+          const card = document.createElement("figure");
+          card.className = "project-card";
+          card.innerHTML = `
+            <img src="${project.coverImage}" alt="${project.title}">
+            <figcaption>
+              <strong>${project.title}</strong><br>
+              ${project.category}<br>
+              ${project.year}
+            </figcaption>
+          `;
+          gallery.appendChild(card);
+        });
+      }
     });
   </script>
 </body>

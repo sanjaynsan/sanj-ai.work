@@ -10,7 +10,7 @@ body {
   background: #fff;
   color: #333;
   text-align: left;
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-right: 30rem;
 }
 
@@ -19,7 +19,7 @@ header {
   top: 0.5rem;
   width: 100%;
   background: transparent;
-  padding-left: 1rem;
+  padding-left: 3rem;
   text-align: left;
   font-size: calc(1.2rem * var(--scale));
   display: flex;
@@ -140,4 +140,42 @@ main {
 
 #dragBox:active {
     cursor: grabbing;
+}
+
+#work p {
+  display: flex;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+
+#work p span {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+#work p span:hover {
+  opacity: 0.8;
+}
+
+#work p span.active {
+  color: red;
+}
+
+.filter {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.filter:hover {
+  opacity: 0.8;
+}
+
+.filter.active {
+  color: red;
 }

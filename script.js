@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const gallery = document.getElementById("project-gallery");
   const projectDetails = document.getElementById("project-details");
+  const filters = document.querySelectorAll(".filter");
 
   // Load projects.json
   fetch("projects.json")
@@ -55,6 +56,40 @@ document.addEventListener("DOMContentLoaded", () => {
           projectDetails.innerHTML = "<p>Project not found.</p>";
         }
       }
+
+      // Add filter functionality
+      filters.forEach((filter) => {
+        filter.addEventListener("click", () => {
+          // Update active filter
+          filters.forEach((f) => f.classList.remove("active"));
+          filter.classList.add("active");
+
+          // Filter projects
+          const category = filter.dataset.category;
+          displayProjects(
+            category === "All"
+              ? projects
+              : projects.filter((p) => p.category === category)
+          );
+        });
+      });
+
+      function displayProjects(projects) {
+        gallery.innerHTML = ""; // Clear existing projects
+        projects.forEach((project) => {
+          const card = document.createElement("figure");
+          card.className = "project-card";
+          card.innerHTML = `
+            <img src="${project.coverImage}" alt="${project.title}">
+            <figcaption>
+              <strong>${project.title}</strong><br>
+              ${project.category}<br>
+              ${project.year}
+            </figcaption>
+          `;
+          gallery.appendChild(card);
+        });
+      }
     });
 });
 
@@ -64,18 +99,18 @@ let isDragging = false;
 let offsetX, offsetY;
 
 dragBox.addEventListener("mousedown", (e) => {
-    isDragging = true;
-    offsetX = e.clientX - dragBox.offsetLeft;
-    offsetY = e.clientY - dragBox.offsetTop;
+  isDragging = true;
+  offsetX = e.clientX - dragBox.offsetLeft;
+  offsetY = e.clientY - dragBox.offsetTop;
 });
 
 document.addEventListener("mousemove", (e) => {
-    if (isDragging) {
-        dragBox.style.left = e.clientX - offsetX + "px";
-        dragBox.style.top = e.clientY - offsetY + "px";
-    }
+  if (isDragging) {
+    dragBox.style.left = e.clientX - offsetX + "px";
+    dragBox.style.top = e.clientY - offsetY + "px";
+  }
 });
 
 document.addEventListener("mouseup", () => {
-    isDragging = false;
+  isDragging = false;
 });

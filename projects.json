@@ -1,5 +1,199 @@
 [
   {
+    "id": "aecai_01_code_to_code",
+    "title": "Code To Code",
+    "category": "AEC AI",
+    "order": 1,
+    "coverImage": "projects/AECAI_01_CODE_TO_CODE/cover.png",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/AECAI_01_CODE_TO_CODE/01_image.gif"
+      }
+    ]
+  },
+  {
+    "id": "aecai_02_llm_based_generative_design",
+    "title": "Llm Based Generative Design",
+    "category": "AEC AI",
+    "order": 2,
+    "coverImage": "projects/AECAI_02_LLM_BASED_GENERATIVE_DESIGN/cover.gif",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/AECAI_02_LLM_BASED_GENERATIVE_DESIGN/01_IMAGE.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/AECAI_02_LLM_BASED_GENERATIVE_DESIGN/02_IMAGE.png"
+      }
+    ]
+  },
+  {
+    "id": "aecautomation_01_office_layout",
+    "title": "Office Layout",
+    "category": "AEC Automation",
+    "order": 1,
+    "coverImage": "projects/AECAUTOMATION_01_OFFICE_LAYOUT/cover.gif",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/AECAUTOMATION_01_OFFICE_LAYOUT/01_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/AECAUTOMATION_01_OFFICE_LAYOUT/02_image.gif"
+      }
+    ]
+  },
+  {
+    "id": "aecautomation_02_cell_cone",
+    "title": "Cell Cone",
+    "category": "AEC Automation",
+    "order": 2,
+    "coverImage": "projects/AECAUTOMATION_02_CELL_CONE/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/AECAUTOMATION_02_CELL_CONE/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/AECAUTOMATION_02_CELL_CONE/02_image.jpg"
+      }
+    ]
+  },
+  {
+    "id": "arch_01_cheers_stadium_",
+    "title": "Cheers Stadium ",
+    "category": "Architecture",
+    "order": 1,
+    "coverImage": "projects/ARCH_01_CHEERS_STADIUM_/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/ARCH_01_CHEERS_STADIUM_/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_01_CHEERS_STADIUM_/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_01_CHEERS_STADIUM_/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_01_CHEERS_STADIUM_/04_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_01_CHEERS_STADIUM_/05_image.jpg"
+      }
+    ]
+  },
+  {
+    "id": "arch_02_refound_you_retreat_city",
+    "title": "Refound You Retreat City",
+    "category": "Architecture",
+    "order": 2,
+    "coverImage": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/04_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/05_image.jpg"
+      }
+    ]
+  },
+  {
+    "id": "arch_03_hiatus",
+    "title": "Hiatus",
+    "category": "Architecture",
+    "order": 3,
+    "coverImage": "projects/ARCH_03_HIATUS/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/ARCH_03_HIATUS/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_03_HIATUS/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_03_HIATUS/03_image.jpg"
+      }
+    ]
+  },
+  {
+    "id": "arch_04_the_diagrid_school",
+    "title": "The Diagrid School",
+    "category": "Architecture",
+    "order": 4,
+    "coverImage": "projects/ARCH_04_THE_DIAGRID_SCHOOL/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/ARCH_04_THE_DIAGRID_SCHOOL/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_04_THE_DIAGRID_SCHOOL/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_04_THE_DIAGRID_SCHOOL/03_image.jpg"
+      }
+    ]
+  },
+  {
+    "id": "arch_05_the_cuming_duality",
+    "title": "The Cuming Duality",
+    "category": "Architecture",
+    "order": 5,
+    "coverImage": "projects/ARCH_05_THE_CUMING_DUALITY/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY/03_image.jpg"
+      }
+    ]
+  },
+  {
     "id": "fabrication_01_clay printing",
     "title": "Clay Printing",
     "category": "Fabrication",
@@ -9,103 +203,367 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/01_image.gif"
+        "src": "projects/FABRICATION_01_CLAY PRINTING/01_image - Copy.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_01_CLAY PRINTING/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_01_CLAY PRINTING/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_01_CLAY PRINTING/03_image.gif"
       }
     ]
   },
   {
-    "id": "fabrication_02_germany superdesign",
-    "title": "Germany Superdesign",
+    "id": "fabrication_02_supernow",
+    "title": "Supernow",
     "category": "Fabrication",
     "order": 2,
-    "coverImage": "projects/FABRICATION_02_germany superdesign/cover.png",
+    "coverImage": "projects/FABRICATION_02_SUPERNOW/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects/FABRICATION_02_germany superdesign/01_image.gif"
+        "src": "projects/FABRICATION_02_SUPERNOW/01_image.jpg"
       }
     ]
   },
   {
-    "id": "pi_01_heat archipelogoes",
-    "title": "Heat Archipelogoes",
-    "category": "Other",
+    "id": "fabrication_03_3d_massing",
+    "title": "3D Massing",
+    "category": "Fabrication",
+    "order": 3,
+    "coverImage": "projects/FABRICATION_03_3D_MASSING/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_03_3D_MASSING/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_03_3D_MASSING/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_03_3D_MASSING/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_03_3D_MASSING/04_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_03_3D_MASSING/05_image.jpg"
+      }
+    ]
+  },
+  {
+    "id": "fabrication_04_lexus",
+    "title": "Lexus",
+    "category": "Fabrication",
+    "order": 4,
+    "coverImage": "projects/FABRICATION_04_LEXUS/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_04_LEXUS/00_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_04_LEXUS/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_04_LEXUS/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_04_LEXUS/03_image.jpg"
+      }
+    ]
+  },
+  {
+    "id": "pi_01_heat_archipelagoes",
+    "title": "Heat Archipelagoes",
+    "category": "Planetary Computation",
     "order": 1,
-    "coverImage": "projects/PI_01_HEAT ARCHIPELOGOES/cover.png",
+    "coverImage": "projects/PI_01_HEAT_ARCHIPELAGOES/cover.gif",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects/PI_01_HEAT ARCHIPELOGOES/01_image.gif"
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/01_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/02_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/04_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/05_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/06_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/07_image.gif"
       }
     ]
   },
   {
-    "id": "pi_02_fire losangelos",
-    "title": "Fire Losangelos",
-    "category": "Other",
+    "id": "pi_02_wildfire_prediction",
+    "title": "Wildfire Prediction",
+    "category": "Planetary Computation",
     "order": 2,
-    "coverImage": "projects/PI_02_FIRE LOSANGELOS/cover.png",
+    "coverImage": "projects/PI_02_WILDFIRE_PREDICTION/cover.jpg",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects/PI_02_FIRE LOSANGELOS/01_image.gif"
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/01_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/02_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/02_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/03_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/04_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/04_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/05_image.png"
       }
     ]
   },
   {
-    "id": "urban_01_mobility check",
-    "title": "Mobility Check",
+    "id": "urban_01_generative_urban_planning",
+    "title": "Generative Urban Planning",
     "category": "Urban Computation",
     "order": 1,
-    "coverImage": "projects/URBAN_01_MOBILITY CHECK/cover.png",
+    "coverImage": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_01_MOBILITY CHECK/01_image.gif"
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/01_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_01_MOBILITY CHECK/02_image.gif"
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/02_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_01_MOBILITY CHECK/03_image.jpg"
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/03_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_01_MOBILITY CHECK/04_image.jpg"
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/04_image.gif"
       }
     ]
   },
   {
-    "id": "urban_02_safety maps",
+    "id": "urban_02_sounds_of_gracia",
+    "title": "Sounds Of Gracia",
+    "category": "Urban Computation",
+    "order": 2,
+    "coverImage": "projects/URBAN_02_SOUNDS_OF_GRACIA/cover.png",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/01_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/01_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/02_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/03_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/04_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/06_image.png"
+      }
+    ]
+  },
+  {
+    "id": "urban_03_safety_maps",
     "title": "Safety Maps",
     "category": "Urban Computation",
-    "order": 2,
-    "coverImage": "projects/URBAN_02_SAFETY MAPS/cover.png",
+    "order": 3,
+    "coverImage": "projects/URBAN_03_SAFETY_MAPS/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_02_SAFETY MAPS/01_image.gif"
+        "src": "projects/URBAN_03_SAFETY_MAPS/01_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_03_SAFETY_MAPS/01_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_03_SAFETY_MAPS/02_image.gif"
       }
     ]
   },
   {
-    "id": "urban_03_sounds of gracie",
-    "title": "Sounds Of Gracie",
+    "id": "urban_04_mobility_check",
+    "title": "Mobility Check",
     "category": "Urban Computation",
-    "order": 3,
-    "coverImage": "projects/URBAN_03_SOUNDS OF GRACIE/cover.png",
+    "order": 4,
+    "coverImage": "projects/URBAN_04_MOBILITY_CHECK/cover.png",
     "quote": null,
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_03_SOUNDS OF GRACIE/01_image.gif"
+        "src": "projects/URBAN_04_MOBILITY_CHECK/01_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MOBILITY_CHECK/02_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MOBILITY_CHECK/02_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MOBILITY_CHECK/03_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MOBILITY_CHECK/03_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MOBILITY_CHECK/04_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MOBILITY_CHECK/05_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MOBILITY_CHECK/06_image.png"
+      }
+    ]
+  },
+  {
+    "id": "urban_05_15_minute_city",
+    "title": "15 Minute City",
+    "category": "Urban Computation",
+    "order": 5,
+    "coverImage": "projects/URBAN_05_15_MINUTE_CITY/cover.png",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/URBAN_05_15_MINUTE_CITY/01_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_05_15_MINUTE_CITY/02_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_05_15_MINUTE_CITY/03_image.png"
+      }
+    ]
+  },
+  {
+    "id": "urban_06_data_analysis_barcelona_parking",
+    "title": "Data Analysis Barcelona Parking",
+    "category": "Urban Computation",
+    "order": 6,
+    "coverImage": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/cover.png",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/01_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/02_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/03_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/04_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/05_image.gif"
+      }
+    ]
+  },
+  {
+    "id": "urban_07_recitying barcelona_temporal crop monitoring",
+    "title": "Recitying Barcelona Temporal Crop Monitoring",
+    "category": "Urban Computation",
+    "order": 7,
+    "coverImage": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/cover.jpg",
+    "quote": null,
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/01_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/02_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/03_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/04_image.JPG"
       }
     ]
   }

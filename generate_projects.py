@@ -11,11 +11,11 @@ OUTPUT_FILE = "projects.json"
 
 CATEGORY_MAP = {
     "URBAN": "Urban Computation",
-    "AI": "Planetary Computation",
+    "PI": "Planetary Computation",
     "FABRICATION": "Fabrication",
     "ARCH": "Architecture",
-    "AEC_AI": "AEC AI",
-    "AEC_AUTOMATION": "AEC Automation"
+    "AECAI": "AEC AI",
+    "AECAUTOMATION": "AEC Automation"
 }
 
 MEDIA_EXTENSIONS = {
