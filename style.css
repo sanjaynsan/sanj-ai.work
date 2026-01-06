@@ -11,7 +11,6 @@ body {
   color: #333;
   text-align: left;
   padding-top: 4rem;
-  padding-right: 30rem; /* Empty padding initially */
 }
 
 header {
@@ -42,12 +41,14 @@ header nav a.active {
 
 main {
   display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(calc(300px * var(--card-scale)), 1fr));
-  gap: 0.01rem;
+  gap: 1rem;
 }
 
 .project-card {
@@ -72,122 +73,12 @@ main {
   margin-top: 0.5rem;
 }
 
-.project-card .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.project-card:hover .overlay {
-  opacity: 0.5;
-}
-
-#project-details {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-#project-details h1 {
-  font-size: calc(2rem * var(--scale));
-  margin-bottom: 1rem;
-}
-
-#project-details p {
-  font-size: calc(1rem * var(--scale));
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
-#project-details img {
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-#project-details iframe {
-  width: 100%;
-  height: 400px;
-  margin-bottom: 1rem;
-}
-
-#project-details embed {
-  width: 100%;
-  height: 600px;
-  margin-bottom: 1rem;
-}
-
-#dragBox {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    color: red;
-    cursor: grab;
-    user-select: none;
-}
-
-#dragBox:active {
-    cursor: grabbing;
-}
-
-#work p {
-  display: flex;
-  gap: 1rem;
-  padding-left: 2rem;
-}
-
-#work p span {
-  cursor: pointer;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: opacity 0.3s ease;
-}
-
-#work p span:hover {
-  opacity: 0.8;
-}
-
-#work p span.active {
-  color: red;
-}
-
-.filter {
-  cursor: pointer;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: opacity 0.3s ease;
-}
-
-.filter:hover {
-  opacity: 0.8;
-}
-
-.filter.active {
-  color: red;
-}
-
 .scrollable-box {
-  width: 30rem;
+  width: 30rem; /* Fixed width */
   padding: 1rem;
   overflow-y: auto;
-  border-left: 1px solid #ddd;
-  background: #f9f9f9;
-  display: none; /* Hidden initially */
-}
-
-.scrollable-box.active {
-  display: block; /* Show when project details are loaded */
+  border-left: 1px solid red;
+  background: #f9f9f900;
 }
 
 .scrollable-box h1 {
@@ -208,12 +99,12 @@ main {
 
 .scrollable-box iframe {
   width: 100%;
-  height: calc(30rem - 2rem); /* Adjust height dynamically based on available space */
+  height: 400px;
   margin-bottom: 1rem;
 }
 
 .scrollable-box embed {
   width: 100%;
-  height: calc(30rem - 2rem); /* Adjust height dynamically based on available space */
+  height: 600px;
   margin-bottom: 1rem;
 }
