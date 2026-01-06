@@ -1,76 +1,33 @@
 document.addEventListener("DOMContentLoaded", () => {
   const gallery = document.getElementById("project-gallery");
-  const projectDetails = document.getElementById("project-details");
   const filters = document.querySelectorAll(".filter");
+  const projectDetails = document.getElementById("project-details");
 
-  // Load projects.json
   fetch("projects.json")
     .then((response) => response.json())
     .then((projects) => {
-      if (gallery) {
-        // Populate project gallery
-        projects.forEach((project) => {
-          const card = document.createElement("div");
-          card.className = "project-card";
-          card.innerHTML = `
-            <img src="${project.coverImage}" alt="${project.title}">
-            <div class="overlay">
-              <h3>${project.title}</h3>
-              <p>${project.category}</p>
-            </div>
-          `;
-          card.addEventListener("click", () => {
-            window.location.href = `project.html?id=${project.id}`;
-          });
-          gallery.appendChild(card);
-        });
-      }
-
-      if (projectDetails) {
-        // Load project details
-        const params = new URLSearchParams(window.location.search);
-        const projectId = params.get("id");
-        const project = projects.find((p) => p.id === projectId);
-
-        if (project) {
-          projectDetails.innerHTML = `
-            <h1>${project.title}</h1>
-            <p><strong>Category:</strong> ${project.category}</p>
-            <p>${project.description}</p>
-            <img src="${project.coverImage}" alt="${project.title}">
-            ${project.media
-              .map((media) => {
-                if (media.type === "video") {
-                  return `<iframe src="${media.src}" frameborder="0" allowfullscreen></iframe>`;
-                } else if (media.type === "pdf") {
-                  return `<embed src="${media.src}" type="application/pdf">`;
-                } else if (media.type === "link") {
-                  return `<a href="${media.src}" target="_blank">${media.src}</a>`;
-                } else {
-                  return `<img src="${media.src}" alt="">`;
-                }
-              })
-              .join("")}
-          `;
-        } else {
-          projectDetails.innerHTML = "<p>Project not found.</p>";
-        }
-      }
+      // Display all projects initially
+      displayProjects(projects);
 
       // Add filter functionality
       filters.forEach((filter) => {
-        filter.addEventListener("click", () => {
-          // Update active filter
+        filter.addEventListener("click", (e) => {
+          const category = e.target.dataset.category;
+
+          // Update active class for filters
           filters.forEach((f) => f.classList.remove("active"));
-          filter.classList.add("active");
+          e.target.classList.add("active");
+
+          // Clear project details box
+          projectDetails.innerHTML = "";
+          projectDetails.classList.remove("active");
 
           // Filter projects
-          const category = filter.dataset.category;
-          displayProjects(
-            category === "All"
-              ? projects
-              : projects.filter((p) => p.category === category)
-          );
+          if (category === "All") {
+            displayProjects(projects);
+          } else {
+            displayProjects(projects.filter((p) => p.category === category));
+          }
         });
       });
 
@@ -83,12 +40,37 @@ document.addEventListener("DOMContentLoaded", () => {
             <img src="${project.coverImage}" alt="${project.title}">
             <figcaption>
               <strong>${project.title}</strong><br>
-              ${project.category}<br>
-              ${project.year}
+              ${project.category}
             </figcaption>
           `;
+          card.addEventListener("click", () => {
+            displayProjectDetails(project);
+          });
           gallery.appendChild(card);
         });
+      }
+
+      function displayProjectDetails(project) {
+        projectDetails.innerHTML = `
+          <h1>${project.title}</h1>
+          <p><strong>Category:</strong> ${project.category}</p>
+          <p>${project.description || "No description available."}</p>
+          <img src="${project.coverImage}" alt="${project.title}">
+          ${project.media
+            .map((media) => {
+              if (media.type === "video") {
+                return `<iframe src="${media.src}" frameborder="0" allowfullscreen></iframe>`;
+              } else if (media.type === "pdf") {
+                return `<embed src="${media.src}" type="application/pdf">`;
+              } else if (media.type === "link") {
+                return `<a href="${media.src}" target="_blank">${media.src}</a>`;
+              } else {
+                return `<img src="${media.src}" alt="">`;
+              }
+            })
+            .join("")}
+        `;
+        projectDetails.classList.add("active");
       }
     });
 });

@@ -23,60 +23,18 @@
         <span class="filter active" data-category="All">All</span> /
         <span class="filter" data-category="Urban Computation">Urban Computation</span> /
         <span class="filter" data-category="Planetary Computation">Planetary Computation</span> /
-        <span class="filter" data-category="Fabrication">Fabrication</span>
-        <span class="filter" data-category="Architecture">Architecture</span>
-        <span class="filter" data-category="AEC Automation">AEC Automation</span>
+        <span class="filter" data-category="Fabrication">Fabrication</span> /
+        <span class="filter" data-category="Architecture">Architecture</span> /
+        <span class="filter" data-category="AEC Automation">AEC Automation</span> /
         <span class="filter" data-category="AEC AI">AEC AI</span>
       </p>
       <div id="project-gallery" class="grid"></div>
     </section>
+    <aside id="project-details" class="scrollable-box">
+      <!-- Project details will be dynamically loaded here -->
+    </aside>
   </main>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const gallery = document.getElementById("project-gallery");
-      const filters = document.querySelectorAll(".filter");
-
-      fetch("projects.json")
-        .then((response) => response.json())
-        .then((projects) => {
-          // Display all projects initially
-          displayProjects(projects);
-
-          // Add filter functionality
-          filters.forEach((filter) => {
-            filter.addEventListener("click", (e) => {
-              const category = e.target.dataset.category;
-              // Update active class for filters
-              filters.forEach((f) => f.classList.remove("active"));
-              e.target.classList.add("active");
-
-              if (category === "All") {
-                displayProjects(projects);
-              } else {
-                displayProjects(projects.filter((p) => p.category === category));
-              }
-            });
-          });
-        });
-
-      function displayProjects(projects) {
-        gallery.innerHTML = ""; // Clear existing projects
-        projects.forEach((project) => {
-          const card = document.createElement("figure");
-          card.className = "project-card";
-          card.innerHTML = `
-            <img src="${project.coverImage}" alt="${project.title}">
-            <figcaption>
-              <strong>${project.title}</strong><br>
-              ${project.category}<br>
-              ${project.year}
-            </figcaption>
-          `;
-          gallery.appendChild(card);
-        });
-      }
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>

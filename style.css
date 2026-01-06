@@ -11,7 +11,7 @@ body {
   color: #333;
   text-align: left;
   padding-top: 4rem;
-  padding-right: 30rem;
+  padding-right: 30rem; /* Empty padding initially */
 }
 
 header {
@@ -23,7 +23,6 @@ header {
   text-align: left;
   font-size: calc(1.2rem * var(--scale));
   display: flex;
-  
   align-items: baseline;
 }
 
@@ -35,7 +34,6 @@ header nav a {
   margin-right: 1rem;
   text-decoration: none;
   color: #333;
-  
 }
 
 header nav a.active {
@@ -43,8 +41,7 @@ header nav a.active {
 }
 
 main {
-  padding-top: 1rem;
-  padding-left:1rem;
+  display: flex;
 }
 
 .grid {
@@ -178,4 +175,45 @@ main {
 
 .filter.active {
   color: red;
+}
+
+.scrollable-box {
+  width: 30rem;
+  padding: 1rem;
+  overflow-y: auto;
+  border-left: 1px solid #ddd;
+  background: #f9f9f9;
+  display: none; /* Hidden initially */
+}
+
+.scrollable-box.active {
+  display: block; /* Show when project details are loaded */
+}
+
+.scrollable-box h1 {
+  font-size: calc(1.5rem * var(--scale));
+  margin-bottom: 1rem;
+}
+
+.scrollable-box p {
+  font-size: calc(1rem * var(--scale));
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.scrollable-box img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.scrollable-box iframe {
+  width: 100%;
+  height: calc(30rem - 2rem); /* Adjust height dynamically based on available space */
+  margin-bottom: 1rem;
+}
+
+.scrollable-box embed {
+  width: 100%;
+  height: calc(30rem - 2rem); /* Adjust height dynamically based on available space */
+  margin-bottom: 1rem;
 }
