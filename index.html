@@ -40,8 +40,41 @@
       fetch("projects.json")
         .then((response) => response.json())
         .then((projects) => {
-          // Display all projects initially
-          displayProjects(projects);
+          // Display all projects initially (sorted by preferred category order)
+          const categoryOrder = [
+            'Urban Computation',
+            'Planetary Computation',
+            'Fabrication',
+            'Architecture',
+            'AEC Automation',
+            'AEC AI'
+          ];
+
+          function sortByCategoryOrder(list) {
+            const byCategory = {};
+            list.forEach(p => {
+              if (!byCategory[p.category]) byCategory[p.category] = [];
+              byCategory[p.category].push(p);
+            });
+            // within each category, sort by 'order' if available, else title
+            categoryOrder.forEach(cat => {
+              if (byCategory[cat]) {
+                byCategory[cat].sort((a,b) => (a.order || 0) - (b.order || 0) || a.title.localeCompare(b.title));
+              }
+            });
+            // flatten in categoryOrder, include any categories not listed at the end
+            const ordered = [];
+            categoryOrder.forEach(cat => {
+              if (byCategory[cat]) ordered.push(...byCategory[cat]);
+            });
+            // append categories not in categoryOrder
+            Object.keys(byCategory).forEach(cat => {
+              if (!categoryOrder.includes(cat)) ordered.push(...byCategory[cat].sort((a,b)=> (a.order||0)-(b.order||0)));
+            });
+            return ordered;
+          }
+
+          displayProjects(sortByCategoryOrder(projects));
 
           // Add filter functionality
           filters.forEach((filter) => {
@@ -52,11 +85,14 @@
               filters.forEach((f) => f.classList.remove("active"));
               e.target.classList.add("active");
 
-              // Filter projects
+              // Filter projects — keep ordering consistent
               if (category === "All") {
-                displayProjects(projects);
+                displayProjects(sortByCategoryOrder(projects));
               } else {
-                displayProjects(projects.filter((p) => p.category === category));
+                const list = projects
+                  .filter((p) => p.category === category)
+                  .sort((a, b) => (a.order || 0) - (b.order || 0) || a.title.localeCompare(b.title));
+                displayProjects(list);
               }
             });
           });
