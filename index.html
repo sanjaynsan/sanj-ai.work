@@ -17,8 +17,8 @@
     </nav>
   </header>
 
-  <main style="display: flex; flex-direction: row; width: 100%;">
-    <section id="work" style="flex: 2;">
+  <main>
+    <section id="work">
       <p style="padding-left: 2rem;">
         <span class="filter active" data-category="All">All</span> /
         <span class="filter" data-category="Urban Computation">Urban Computation</span> /
@@ -30,11 +30,57 @@
       </p>
       <div id="project-gallery" class="grid"></div>
     </section>
-    <aside id="project-details" class="scrollable-box">
-      <!-- Project details will be dynamically loaded here -->
-    </aside>
   </main>
 
-  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const gallery = document.getElementById("project-gallery");
+      const filters = document.querySelectorAll(".filter");
+
+      fetch("projects.json")
+        .then((response) => response.json())
+        .then((projects) => {
+          // Display all projects initially
+          displayProjects(projects);
+
+          // Add filter functionality
+          filters.forEach((filter) => {
+            filter.addEventListener("click", (e) => {
+              const category = e.target.dataset.category;
+
+              // Update active class for filters
+              filters.forEach((f) => f.classList.remove("active"));
+              e.target.classList.add("active");
+
+              // Filter projects
+              if (category === "All") {
+                displayProjects(projects);
+              } else {
+                displayProjects(projects.filter((p) => p.category === category));
+              }
+            });
+          });
+
+          function displayProjects(projects) {
+            gallery.innerHTML = ""; // Clear existing projects
+            projects.forEach((project) => {
+              const card = document.createElement("figure");
+              card.className = "project-card";
+              card.innerHTML = `
+                <img src="${project.coverImage}" alt="${project.title}">
+                <figcaption>
+                  <strong>${project.title}</strong><br>
+                  ${project.category}
+                </figcaption>
+              `;
+              card.addEventListener("click", () => {
+                window.location.href = `project.html?id=${project.id}`;
+              });
+              gallery.appendChild(card);
+            });
+          }
+        });
+    });
+  </script>
 </body>
 </html>

@@ -11,6 +11,7 @@ body {
   color: #333;
   text-align: left;
   padding-top: 4rem;
+  padding-right: 30rem; /* Added 30rem right padding to the main body */
 }
 
 header {
@@ -43,6 +44,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding-right: 30rem; /* Added 30rem right padding to the main body for detail page */
 }
 
 .grid {
@@ -74,45 +76,20 @@ main {
 }
 
 .scrollable-box {
-  width: 30rem; /* Fixed width */
-  padding: 1rem;
-  overflow-y: auto;
-  border-left: 1px solid rgba(255, 0, 0, 0.24);
-  background: #f9f9f900;
+  display: block;
+  width: auto;
+  padding: 0;
+  overflow: visible;
+  border: none;
+  background: none;
 }
 
-.scrollable-box h1 {
-  font-size: calc(1.5rem * var(--scale));
-  margin-bottom: 1rem;
-}
-
-.scrollable-box p {
-  font-size: calc(1rem * var(--scale));
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
-.scrollable-box img {
-  width: 100%;
-  margin-bottom: 1rem;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.scrollable-box img:hover {
-  transform: scale(1.05);
-}
-
-.scrollable-box iframe {
-  width: 100%;
-  height: 400px;
-  margin-bottom: 1rem;
-}
-
+.scrollable-box img,
+.scrollable-box iframe,
 .scrollable-box embed {
-  width: 100%;
-  height: 600px;
   margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
 }
 
 .filter {
@@ -132,28 +109,12 @@ main {
   color: red;
 }
 
-.zoom-popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-  background: rgba(0, 0, 0, 0.8);
+
+/* Restrict images to fit within 50rem left in detail project page */
+#project-details img {
+  max-width: 50rem;
+  display: block;
+  margin: 0 auto;
   padding: 1rem;
-  border-radius: 8px;
-  display: none;
 }
 
-.zoom-popup img {
-  max-width: 90%;
-  max-height: 90%;
-}
-
-.zoom-popup .close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  color: #fff;
-  font-size: 1.5rem;
-  cursor: pointer;
-}

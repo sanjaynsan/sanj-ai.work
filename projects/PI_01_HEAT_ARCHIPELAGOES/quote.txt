@@ -1,0 +1,7 @@
+Desc: "Heat Archipelagoes is a project Done in iaac with 
+
+This study concentrates on the application of novel satellite imagery to develop a comprehensive Heat Island Vulnerability Index (HIVI), aimed at identifying and prioritizing areas most susceptible to the urban heat island effect. By integrating high-resolution remote sensing data with socio-environmental parameters, the index captures spatial variations in land surface temperature, vegetation cover, and built-up density. These physical indicators are then cross-referenced with demographic and infrastructural data, including population vulnerability (age, income levels, health conditions), access to shaded or green spaces, and availability of cooling infrastructure.
+
+The resulting multi-criteria index enables a nuanced understanding of urban heat exposure and its differential impacts, allowing policymakers and urban planners to allocate resources more effectively. Priority zones are mapped to guide targeted interventions such as tree planting, reflective surface implementation, and the establishment of public cooling shelters. This data-driven approach not only enhances adaptive capacity in rapidly urbanizing regions but also supports equitable climate resilience strategies that center marginalized communities. The study underscores the critical role of geospatial analytics in crafting informed, just, and responsive heat mitigation policies in the face of escalating climate risks.
+
+More information:https://blog.iaac.net/heat-archipelagos/"

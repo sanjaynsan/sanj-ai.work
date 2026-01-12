@@ -1,0 +1,5 @@
+Desc: "DFMA (Modular Construction Toolkit) was a project developed in collaboration with CellCone Precast concrete housing company to automate Design for Manufacturing and Assembly workflows for modular construction housing. The toolkit generates optimized modular housing units that comply with manufacturing constraints and assembly guidelines while considering design manufacturability principles. Using parametric design tools integrated with Rhino and Grasshopper, the project created a generative design environment that produces diverse housing configurations from standardized manufacturing modules.
+
+img01: "Workflow diagram showing the end-to-end DFMA process from site input and design provider specifications through manufacturing guidelines, generator design constraints, and output stages including documentation"
+
+img02: " The project resulted in a proof-of-concept demonstrating the feasibility of mass-customizable prefabricated housing solutions with web-based visualization and marketing capabilities through the ShapeDiver platform."

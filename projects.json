@@ -1,69 +1,106 @@
 [
   {
-    "id": "aecai_01_code_to_code",
-    "title": "Code To Code",
+    "id": "aecai_01_ai_code_compliance",
+    "title": "Ai Code Compliance",
     "category": "AEC AI",
     "order": 1,
-    "coverImage": "projects/AECAI_01_CODE_TO_CODE/cover.png",
-    "quote": null,
+    "coverImage": "projects/AECAI_01_AI_CODE_COMPLIANCE/cover.png",
+    "quote": {
+      "Desc": "\"Loreum ipsum\"",
+      "img01": "\"describe image 1\"",
+      "img04": "\"describe image 4\""
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/AECAI_01_CODE_TO_CODE/01_image.gif"
+        "src": "projects/AECAI_01_AI_CODE_COMPLIANCE/01_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/AECAI_01_AI_CODE_COMPLIANCE/cover.png"
       }
     ]
   },
   {
-    "id": "aecai_02_llm_based_generative_design",
-    "title": "Llm Based Generative Design",
+    "id": "aecai_02_text to cim(city information model)",
+    "title": "Text To Cim(City Information Model)",
     "category": "AEC AI",
     "order": 2,
-    "coverImage": "projects/AECAI_02_LLM_BASED_GENERATIVE_DESIGN/cover.gif",
-    "quote": null,
+    "coverImage": "projects/AECAI_02_TEXT TO CIM(CITY INFORMATION MODEL)/cover.png",
+    "quote": {
+      "Desc": "\"Text to CIM was a project developed to bridge natural language input with structured urban data representation through Large Language Model (LLM) processing. The system accepts dynamic text inputs describing urban conditions and contextual information, which are then transformed into a formalized ontology structure. This early-stage ontology framework captures essential urban design elements, relationships, and spatial attributes relevant to comprehensive urban planning. The project demonstrates how AI-driven text analysis can be translated into machine-readable City Information Models that serve architects, planners, and design professionals in creating shared vocabularies for urban design workflows.\"",
+      "img01": "\"LLM dynamic text-based inputs integrated with urban site data, showing the interface between natural language processing and spatial datasets\"",
+      "img02": "\"Urban site data represented as a point cloud structure, providing baseline spatial information for urban analysis and modeling\"",
+      "img03": "\"Star-shaped city representation with structured infrastructure networks and connectivity data overlaid on urban fabric geometry\""
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/AECAI_02_LLM_BASED_GENERATIVE_DESIGN/01_IMAGE.png"
+        "src": "projects/AECAI_02_TEXT TO CIM(CITY INFORMATION MODEL)/01_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/AECAI_02_LLM_BASED_GENERATIVE_DESIGN/02_IMAGE.png"
+        "src": "projects/AECAI_02_TEXT TO CIM(CITY INFORMATION MODEL)/02_IMAGE.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/AECAI_02_TEXT TO CIM(CITY INFORMATION MODEL)/03_IMAGE.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/AECAI_02_TEXT TO CIM(CITY INFORMATION MODEL)/cover.png"
       }
     ]
   },
   {
-    "id": "aecautomation_01_office_layout",
-    "title": "Office Layout",
+    "id": "aecautomation_01_guided_generative_design_workspace",
+    "title": "Guided Generative Design Workspace",
     "category": "AEC Automation",
     "order": 1,
-    "coverImage": "projects/AECAUTOMATION_01_OFFICE_LAYOUT/cover.gif",
-    "quote": null,
+    "coverImage": "projects/AECAUTOMATION_01_GUIDED_GENERATIVE_DESIGN_WORKSPACE/cover.gif",
+    "quote": {
+      "Desc": "\"Guided Generative Design Workspace was a project developed to automate and optimize architectural floor plan generation through parametric design principles and intelligent constraint-based algorithms. The system accepts programmatic briefs and spatial requirements, then generates multiple design iterations that comply with building codes, occupancy standards, and design metrics. By leveraging generative design workflows, the project enables architects to rapidly explore design alternatives while maintaining control over key performance indicators such as space efficiency, circulation patterns, and occupancy metrics. The workspace serves as a bridge between user intent and computational design, allowing for interactive refinement of generated solutions.\"",
+      "img01": "\"Optimized generative floor plan with comprehensive spatial metrics panel displaying area calculations, utilization ratios, occupancy counts by zone, and qualitative performance indicators derived from the generative design algorithm.\"",
+      "img02": "\"Circulation network analysis showing blue flow paths and daylighting and views to outside patterns across the generated floor plan, visualizing how the generative algorithm optimized movement through spaces based on user constraints and design objectives.\""
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/AECAUTOMATION_01_OFFICE_LAYOUT/01_image.gif"
+        "src": "projects/AECAUTOMATION_01_GUIDED_GENERATIVE_DESIGN_WORKSPACE/01_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/AECAUTOMATION_01_OFFICE_LAYOUT/02_image.gif"
+        "src": "projects/AECAUTOMATION_01_GUIDED_GENERATIVE_DESIGN_WORKSPACE/02_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/AECAUTOMATION_01_GUIDED_GENERATIVE_DESIGN_WORKSPACE/cover.gif"
       }
     ]
   },
   {
-    "id": "aecautomation_02_cell_cone",
-    "title": "Cell Cone",
+    "id": "aecautomation_02_dfma (modular construction toolkit)",
+    "title": "Dfma (Modular Construction Toolkit)",
     "category": "AEC Automation",
     "order": 2,
-    "coverImage": "projects/AECAUTOMATION_02_CELL_CONE/cover.jpg",
-    "quote": null,
+    "coverImage": "projects/AECAUTOMATION_02_DFMA (MODULAR CONSTRUCTION TOOLKIT)/cover.png",
+    "quote": {
+      "Desc": "\"DFMA (Modular Construction Toolkit) was a project developed in collaboration with CellCone Precast concrete housing company to automate Design for Manufacturing and Assembly workflows for modular construction housing. The toolkit generates optimized modular housing units that comply with manufacturing constraints and assembly guidelines while considering design manufacturability principles. Using parametric design tools integrated with Rhino and Grasshopper, the project created a generative design environment that produces diverse housing configurations from standardized manufacturing modules.",
+      "img01": "\"Workflow diagram showing the end-to-end DFMA process from site input and design provider specifications through manufacturing guidelines, generator design constraints, and output stages including documentation\"",
+      "img02": "\" The project resulted in a proof-of-concept demonstrating the feasibility of mass-customizable prefabricated housing solutions with web-based visualization and marketing capabilities through the ShapeDiver platform.\""
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/AECAUTOMATION_02_CELL_CONE/01_image.jpg"
+        "src": "projects/AECAUTOMATION_02_DFMA (MODULAR CONSTRUCTION TOOLKIT)/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/AECAUTOMATION_02_CELL_CONE/02_image.jpg"
+        "src": "projects/AECAUTOMATION_02_DFMA (MODULAR CONSTRUCTION TOOLKIT)/02_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/AECAUTOMATION_02_DFMA (MODULAR CONSTRUCTION TOOLKIT)/cover.png"
       }
     ]
   },
@@ -73,7 +110,10 @@
     "category": "Architecture",
     "order": 1,
     "coverImage": "projects/ARCH_01_CHEERS_STADIUM_/cover.jpg",
-    "quote": null,
+    "quote": {
+      "Desc": "\"Gazhiabada, part of capital region of Delhi, has been the place for several cricket matches. The site being here, surrounded by the URBAN FABRIC on one side and the NATURAL AND CULTIVABLE FARMLANDS on all the other sides pulls people from all around. The water tunnel running to the southeast and southwest of the site becomes an attraction. All these become the PROXIMITY PULLS for the site. So, the stadium has to be iconic to address the variety of context around the site.The design was envisioned in fully on parametrizism,the whole was made into a single script where the optimizers plays with different design and structural possibilities with respect to site condtions.",
+      "img01": "\"The stadium was also have a unique sound and acoustic based element,which is basically kind of a smartcloth...what it can absorb the excess sound and can adapt its shape to the sound produced in the roof.\""
+    },
     "media": [
       {
         "type": "image",
@@ -94,58 +134,79 @@
       {
         "type": "image",
         "src": "projects/ARCH_01_CHEERS_STADIUM_/05_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_01_CHEERS_STADIUM_/cover.jpg"
       }
     ]
   },
   {
-    "id": "arch_02_refound_you_retreat_city",
-    "title": "Refound You Retreat City",
+    "id": "arch_02_refound_retreat_city",
+    "title": "Refound Retreat City",
     "category": "Architecture",
     "order": 2,
-    "coverImage": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/cover.jpg",
-    "quote": null,
+    "coverImage": "projects/ARCH_02_REFOUND_RETREAT_CITY/cover.jpg",
+    "quote": {
+      "Desc": "\"Refound Retreat Center was an architectural design project that envisioned a sustainable forest-integrated retreat destination emphasizing wellness, community connection, and environmental harmony. The master-planned development features biomorphic pod structures nestled within dense forest canopy, each housing dedicated retreat programs ranging from meditation to cultural activities. The design integrates nature-centric architecture with experiential spaces, utilizing parametrically-designed dome and cone structures that minimize environmental impact while maximizing inhabitant experience. The project demonstrates a holistic approach to eco-tourism and wellness architecture, creating a transformative landscape where built form and natural environment coexist in symbiotic relationship.\"",
+      "img01": "\"Interior perspective of the central retreat pavilion showcasing organic architectural geometry with dramatic natural lighting filtered through parametric wooden lattice structures.\"",
+      "img02": "\"Aerial view of the retreat center campus with pod-like dome structures scattered throughout dense forest vegetation highlighted in lime-green accents.\"",
+      "img04": "\"Master plan of the retreat centre site showing spatial organization of program elements including individual retreat pods, central gathering spaces, and landscape features.\""
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/01_image.jpg"
+        "src": "projects/ARCH_02_REFOUND_RETREAT_CITY/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/02_image.jpg"
+        "src": "projects/ARCH_02_REFOUND_RETREAT_CITY/02_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/03_image.jpg"
+        "src": "projects/ARCH_02_REFOUND_RETREAT_CITY/03_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/04_image.jpg"
+        "src": "projects/ARCH_02_REFOUND_RETREAT_CITY/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_02_REFOUND_YOU_RETREAT_CITY/05_image.jpg"
+        "src": "projects/ARCH_02_REFOUND_RETREAT_CITY/05_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_02_REFOUND_RETREAT_CITY/cover.jpg"
       }
     ]
   },
   {
-    "id": "arch_03_hiatus",
-    "title": "Hiatus",
+    "id": "arch_03_hiatus_the office",
+    "title": "Hiatus The Office",
     "category": "Architecture",
     "order": 3,
-    "coverImage": "projects/ARCH_03_HIATUS/cover.jpg",
-    "quote": null,
+    "coverImage": "projects/ARCH_03_HIATUS_THE OFFICE/cover.jpg",
+    "quote": {
+      "Desc": "Loreum ipsum",
+      "img01": "describe image 1",
+      "img04": "describe image 4"
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/ARCH_03_HIATUS/01_image.jpg"
+        "src": "projects/ARCH_03_HIATUS_THE OFFICE/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_03_HIATUS/02_image.jpg"
+        "src": "projects/ARCH_03_HIATUS_THE OFFICE/02_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_03_HIATUS/03_image.jpg"
+        "src": "projects/ARCH_03_HIATUS_THE OFFICE/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_03_HIATUS_THE OFFICE/cover.jpg"
       }
     ]
   },
@@ -155,7 +216,9 @@
     "category": "Architecture",
     "order": 4,
     "coverImage": "projects/ARCH_04_THE_DIAGRID_SCHOOL/cover.jpg",
-    "quote": null,
+    "quote": {
+      "Desc": "\"CAN A GRID WILL MAKE EFFICIENT SPACE FOR CHILDRENS....?"
+    },
     "media": [
       {
         "type": "image",
@@ -168,28 +231,38 @@
       {
         "type": "image",
         "src": "projects/ARCH_04_THE_DIAGRID_SCHOOL/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_04_THE_DIAGRID_SCHOOL/cover.jpg"
       }
     ]
   },
   {
-    "id": "arch_05_the_cuming_duality",
-    "title": "The Cuming Duality",
+    "id": "arch_05_the_cuming_duality(competition)",
+    "title": "The Cuming Duality(Competition)",
     "category": "Architecture",
     "order": 5,
-    "coverImage": "projects/ARCH_05_THE_CUMING_DUALITY/cover.jpg",
-    "quote": null,
+    "coverImage": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/cover.jpg",
+    "quote": {
+      "Desc": "\"The Cuming Duality was a competition design project exploring the relationship between contrasting urban conditions and the creation of dynamic public spaces that bridge different contexts. The design investigates the interplay between solid and void, permanence and ephemera, and cultural identity and global influence. Through carefully orchestrated spatial sequences and material contrasts, the project creates environments that celebrate dualities while fostering unity and unexpected connections. The architecture demonstrates how thoughtful design can transform challenging site conditions into opportunities for innovative place-making.\""
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/ARCH_05_THE_CUMING_DUALITY/01_image.jpg"
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_05_THE_CUMING_DUALITY/02_image.jpg"
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/02_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_05_THE_CUMING_DUALITY/03_image.jpg"
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/cover.jpg"
       }
     ]
   },
@@ -198,16 +271,14 @@
     "title": "Clay Printing",
     "category": "Fabrication",
     "order": 1,
-    "coverImage": "projects/FABRICATION_01_CLAY PRINTING/cover.png",
-    "quote": null,
+    "coverImage": "projects/FABRICATION_01_CLAY PRINTING/cover.jpg",
+    "quote": {
+      "Desc": "\"This project, part of the \"MORE THAN HUMANS\" studio, explored advanced clay additive manufacturing. It used parametric design algorithms to create complex, 3D-printed ceramic homes for barn swallows. The sustainable, collaborative, and participatory design process involved working with local people near Santa Coloma, Barcelona. The research successfully combined digital fabrication precision with the tactile warmth of traditional clay craft. This approach demonstrated how robotic printing could enable mass customization while maintaining artisanal qualities\"."
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/01_image - Copy.jpg"
-      },
-      {
-        "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/01_image.jpg"
+        "src": "projects/FABRICATION_01_CLAY PRINTING/01_image.gif"
       },
       {
         "type": "image",
@@ -215,51 +286,75 @@
       },
       {
         "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/03_image.gif"
+        "src": "projects/FABRICATION_01_CLAY PRINTING/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_01_CLAY PRINTING/04_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_01_CLAY PRINTING/cover.jpg"
       }
     ]
   },
   {
-    "id": "fabrication_02_supernow",
-    "title": "Supernow",
+    "id": "fabrication_02_mass_customization_web_to_manufacture",
+    "title": "Mass Customization Web To Manufacture",
     "category": "Fabrication",
     "order": 2,
-    "coverImage": "projects/FABRICATION_02_SUPERNOW/cover.png",
-    "quote": null,
+    "coverImage": "projects/FABRICATION_02_MASS_CUSTOMIZATION_WEB_TO_MANUFACTURE/cover.png",
+    "quote": {
+      "Desc": "\" FROM CENTRALIZED GLOBALLY ACCESSIBLE DESIGN PLATFORM TO"
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/FABRICATION_02_SUPERNOW/01_image.jpg"
+        "src": "projects/FABRICATION_02_MASS_CUSTOMIZATION_WEB_TO_MANUFACTURE/01_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_02_MASS_CUSTOMIZATION_WEB_TO_MANUFACTURE/02_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_02_MASS_CUSTOMIZATION_WEB_TO_MANUFACTURE/cover.png"
       }
     ]
   },
   {
-    "id": "fabrication_03_3d_massing",
-    "title": "3D Massing",
+    "id": "fabrication_03_printing_the_mines",
+    "title": "Printing The Mines",
     "category": "Fabrication",
     "order": 3,
-    "coverImage": "projects/FABRICATION_03_3D_MASSING/cover.jpg",
-    "quote": null,
+    "coverImage": "projects/FABRICATION_03_PRINTING_THE_MINES/cover.jpg",
+    "quote": {
+      "Desc": "\"This project explores 3D printing as a rapid-prototyping tool for architectural design. The fabrication process was driven by personal interest in manifesting diverse and complex spatial forms that challenge traditional building methods. The images display various experimental models printed and fabricated to investigate these novel architectural spaces. This approach utilizes digital fabrication to explore unique geometries and material applications that allow for high levels of customization.\""
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/FABRICATION_03_3D_MASSING/01_image.jpg"
+        "src": "projects/FABRICATION_03_PRINTING_THE_MINES/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/FABRICATION_03_3D_MASSING/02_image.jpg"
+        "src": "projects/FABRICATION_03_PRINTING_THE_MINES/02_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/FABRICATION_03_3D_MASSING/03_image.jpg"
+        "src": "projects/FABRICATION_03_PRINTING_THE_MINES/03_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/FABRICATION_03_3D_MASSING/04_image.jpg"
+        "src": "projects/FABRICATION_03_PRINTING_THE_MINES/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/FABRICATION_03_3D_MASSING/05_image.jpg"
+        "src": "projects/FABRICATION_03_PRINTING_THE_MINES/05_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_03_PRINTING_THE_MINES/cover.jpg"
       }
     ]
   },
@@ -269,7 +364,9 @@
     "category": "Fabrication",
     "order": 4,
     "coverImage": "projects/FABRICATION_04_LEXUS/cover.jpg",
-    "quote": null,
+    "quote": {
+      "Desc": "\"This Lexus Car Showroom project is a self-directed fabrication research into parametric spaces, utilizing glass and light as primary materials for experimentation. The innovative design uses a system of vertical fins to create dynamic visual patterns and unique spatial experiences within the showroom environment, exploring how a diagrid pattern can define different pockets of space. The project successfully bridges digital design and physical model-making, resulting in an immersive, luxury space that showcases the brand's vehicles.\""
+    },
     "media": [
       {
         "type": "image",
@@ -286,6 +383,14 @@
       {
         "type": "image",
         "src": "projects/FABRICATION_04_LEXUS/03_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_04_LEXUS/04_image.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/FABRICATION_04_LEXUS/cover.jpg"
       }
     ]
   },
@@ -295,7 +400,10 @@
     "category": "Planetary Computation",
     "order": 1,
     "coverImage": "projects/PI_01_HEAT_ARCHIPELAGOES/cover.gif",
-    "quote": null,
+    "quote": {
+      "Desc": "\"Heat Archipelagoes is a project Done in iaac with",
+      "More information": "https://blog.iaac.net/heat-archipelagos/\""
+    },
     "media": [
       {
         "type": "image",
@@ -324,6 +432,10 @@
       {
         "type": "image",
         "src": "projects/PI_01_HEAT_ARCHIPELAGOES/07_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/cover.gif"
       }
     ]
   },
@@ -333,11 +445,18 @@
     "category": "Planetary Computation",
     "order": 2,
     "coverImage": "projects/PI_02_WILDFIRE_PREDICTION/cover.jpg",
-    "quote": null,
+    "quote": {
+      "Desc": "\"Wildfire Prediction was a iaac research project utilizing machine learning algorithms and environmental data analysis to forecast wildfire occurrence, spread patterns, and risk zones at regional and continental scales. The project integrated satellite imagery, weather data, vegetation indices, and historical fire patterns to train predictive models that identify high-risk areas before ignition occurs. By providing early warning systems and resource allocation guidance, the research aims to support emergency preparedness and land management decisions. The project demonstrates how computational intelligence can be applied to planetary-scale environmental challenges, potentially saving lives and protecting ecosystems.",
+      "Tech Stack": "Gee, python, QGis , Roboflow \""
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/01_image.gif"
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/001_image.JPG"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/01_image.png"
       },
       {
         "type": "image",
@@ -362,66 +481,92 @@
       {
         "type": "image",
         "src": "projects/PI_02_WILDFIRE_PREDICTION/05_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/cover.JPG"
       }
     ]
   },
   {
-    "id": "urban_01_generative_urban_planning",
-    "title": "Generative Urban Planning",
+    "id": "urban_01_generative_urban_planning_ al quoz, dubai",
+    "title": "Generative Urban Planning  Al Quoz, Dubai",
     "category": "Urban Computation",
     "order": 1,
-    "coverImage": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/cover.png",
-    "quote": null,
+    "coverImage": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/cover.gif",
+    "quote": {
+      "Desc": "Loreum ipsum",
+      "img01": "describe image 1",
+      "img04": "describe image 4"
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/01_image.gif"
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/01_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/02_image.gif"
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/02_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/03_image.gif"
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/03_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING/04_image.gif"
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/04_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/cover.gif"
       }
     ]
   },
   {
-    "id": "urban_02_sounds_of_gracia",
-    "title": "Sounds Of Gracia",
+    "id": "urban_02_sounds_of_cities",
+    "title": "Sounds Of Cities",
     "category": "Urban Computation",
     "order": 2,
-    "coverImage": "projects/URBAN_02_SOUNDS_OF_GRACIA/cover.png",
-    "quote": null,
+    "coverImage": "projects/URBAN_02_SOUNDS_OF_CITIES/cover.png",
+    "quote": {
+      "Desc": "\"(Not everything matters can be measured)",
+      "Rather than using traditional acoustic sensors, the approach synthesizes visual cues and spatial context to simulate what a place sounds like. These AI-predicted sounds are then dissected into \u201cgood\u201d and \u201cbad\u201d categories, not by decibel count but by experiential quality\u2014challenging the objectivity of noise pollution standards. The project raises critical questions about subjectivity in urban design": "Can serenity be modeled? Can discomfort be detected through visuals alone? And most importantly, should all that\u2019s loud be silenced?",
+      "Tech stack used": "VLM (Mistral , N8N ,Rag ,SVI)\"",
+      "img01": "describe image 1",
+      "img04": "describe image 4"
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/01_image.gif"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/001_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/01_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/003_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/02_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/01_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/03_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/02_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/04_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/03_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_GRACIA/06_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/04_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/06_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/cover.png"
       }
     ]
   },
@@ -430,8 +575,12 @@
     "title": "Safety Maps",
     "category": "Urban Computation",
     "order": 3,
-    "coverImage": "projects/URBAN_03_SAFETY_MAPS/cover.png",
-    "quote": null,
+    "coverImage": "projects/URBAN_03_SAFETY_MAPS/cover.gif",
+    "quote": {
+      "Desc": "Loreum ipsum",
+      "img01": "describe image 1",
+      "img04": "describe image 4"
+    },
     "media": [
       {
         "type": "image",
@@ -443,49 +592,70 @@
       },
       {
         "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/02_image.gif"
+        "src": "projects/URBAN_03_SAFETY_MAPS/02_image.gif.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_03_SAFETY_MAPS/03_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_03_SAFETY_MAPS/04_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_03_SAFETY_MAPS/cover.gif"
       }
     ]
   },
   {
-    "id": "urban_04_mobility_check",
-    "title": "Mobility Check",
+    "id": "urban_04_micromobility_validation_with_ai_agents",
+    "title": "Micromobility Validation With Ai Agents",
     "category": "Urban Computation",
     "order": 4,
-    "coverImage": "projects/URBAN_04_MOBILITY_CHECK/cover.png",
-    "quote": null,
+    "coverImage": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/cover.jpg",
+    "quote": {
+      "Desc": "\"This project introduces an AI-driven simulation tool designed to revolutionize urban planning by amplifying the perspectives of often-overlooked demographic groups. Developed during a specialized micromobility workshop in collaboration with the Buro Happold team, the tool addresses a critical industry pain point: the difficulty of incorporating the nuanced mobility needs of vulnerable populations\u2014such as pregnant women, children, and the elderly\u2014into the early design stages.",
+      "More info": "https://blog.iaac.net/riyadh-superblock/\"",
+      "img01": "describe image 1",
+      "img04": "describe image 4"
+    },
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_04_MOBILITY_CHECK/01_image.png"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/01_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MOBILITY_CHECK/02_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/02_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MOBILITY_CHECK/02_image.png"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/02_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MOBILITY_CHECK/03_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/03_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MOBILITY_CHECK/03_image.png"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/03_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MOBILITY_CHECK/04_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/04_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MOBILITY_CHECK/05_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/05_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MOBILITY_CHECK/06_image.png"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/06_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/cover.jpg"
       }
     ]
   },
@@ -495,7 +665,11 @@
     "category": "Urban Computation",
     "order": 5,
     "coverImage": "projects/URBAN_05_15_MINUTE_CITY/cover.png",
-    "quote": null,
+    "quote": {
+      "Desc": "Loreum ipsum",
+      "img01": "describe image 1",
+      "img04": "describe image 4"
+    },
     "media": [
       {
         "type": "image",
@@ -508,6 +682,14 @@
       {
         "type": "image",
         "src": "projects/URBAN_05_15_MINUTE_CITY/03_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_05_15_MINUTE_CITY/04_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_05_15_MINUTE_CITY/cover.png"
       }
     ]
   },
@@ -517,7 +699,11 @@
     "category": "Urban Computation",
     "order": 6,
     "coverImage": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/cover.png",
-    "quote": null,
+    "quote": {
+      "Desc": "Loreum ipsum",
+      "img01": "describe image 1",
+      "img04": "describe image 4"
+    },
     "media": [
       {
         "type": "image",
@@ -538,6 +724,10 @@
       {
         "type": "image",
         "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/05_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/cover.png"
       }
     ]
   },
@@ -547,7 +737,11 @@
     "category": "Urban Computation",
     "order": 7,
     "coverImage": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/cover.jpg",
-    "quote": null,
+    "quote": {
+      "Desc": "Loreum ipsum",
+      "img01": "describe image 1",
+      "img04": "describe image 4"
+    },
     "media": [
       {
         "type": "image",
@@ -564,6 +758,14 @@
       {
         "type": "image",
         "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/04_image.JPG"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/COVER.JPG"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/Screenshot 2026-01-02 224335.png"
       }
     ]
   }

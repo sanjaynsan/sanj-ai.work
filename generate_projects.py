@@ -59,9 +59,6 @@ def detect_media(folder_path, web_path):
     files = sorted(os.listdir(folder_path))
 
     for file in files:
-        if not re.match(r"\d+_", file):
-            continue
-
         ext = os.path.splitext(file)[1].lower()
 
         for media_type, extensions in MEDIA_EXTENSIONS.items():
@@ -80,6 +77,20 @@ def detect_cover(folder_path, web_path):
         if os.path.exists(os.path.join(folder_path, name)):
             return f"{web_path}/{name}".replace("\\", "/")
     return None
+
+
+def detect_quote(folder_path):
+    quote_file = os.path.join(folder_path, "quote.txt")
+    if os.path.exists(quote_file):
+        with open(quote_file, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+            quote = {}
+            for line in lines:
+                if ":" in line:
+                    key, value = line.split(":", 1)
+                    quote[key.strip()] = value.strip()
+            return quote
+    return {}
 
 
 # ==============================
@@ -102,7 +113,7 @@ for folder in sorted(os.listdir(PROJECTS_DIR)):
         "category": extract_category(folder),
         "order": extract_order(folder),
         "coverImage": detect_cover(folder_path, web_path),
-        "quote": None,
+        "quote": detect_quote(folder_path),
         "media": detect_media(folder_path, web_path)
     }
 

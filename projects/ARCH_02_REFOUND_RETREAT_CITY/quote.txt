@@ -1,0 +1,8 @@
+Desc: "Refound Retreat Center was an architectural design project that envisioned a sustainable forest-integrated retreat destination emphasizing wellness, community connection, and environmental harmony. The master-planned development features biomorphic pod structures nestled within dense forest canopy, each housing dedicated retreat programs ranging from meditation to cultural activities. The design integrates nature-centric architecture with experiential spaces, utilizing parametrically-designed dome and cone structures that minimize environmental impact while maximizing inhabitant experience. The project demonstrates a holistic approach to eco-tourism and wellness architecture, creating a transformative landscape where built form and natural environment coexist in symbiotic relationship."
+
+img01: "Interior perspective of the central retreat pavilion showcasing organic architectural geometry with dramatic natural lighting filtered through parametric wooden lattice structures."
+
+img02: "Aerial view of the retreat center campus with pod-like dome structures scattered throughout dense forest vegetation highlighted in lime-green accents."
+
+
+img04: "Master plan of the retreat centre site showing spatial organization of program elements including individual retreat pods, central gathering spaces, and landscape features."

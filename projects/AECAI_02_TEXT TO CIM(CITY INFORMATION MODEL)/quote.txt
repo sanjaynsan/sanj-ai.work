@@ -1,0 +1,7 @@
+Desc:"Text to CIM was a project developed to bridge natural language input with structured urban data representation through Large Language Model (LLM) processing. The system accepts dynamic text inputs describing urban conditions and contextual information, which are then transformed into a formalized ontology structure. This early-stage ontology framework captures essential urban design elements, relationships, and spatial attributes relevant to comprehensive urban planning. The project demonstrates how AI-driven text analysis can be translated into machine-readable City Information Models that serve architects, planners, and design professionals in creating shared vocabularies for urban design workflows."
+
+img01:"LLM dynamic text-based inputs integrated with urban site data, showing the interface between natural language processing and spatial datasets"
+
+img02:"Urban site data represented as a point cloud structure, providing baseline spatial information for urban analysis and modeling"
+
+img03:"Star-shaped city representation with structured infrastructure networks and connectivity data overlaid on urban fabric geometry"

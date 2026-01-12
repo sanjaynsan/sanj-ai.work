@@ -12,13 +12,95 @@
     
     <nav>
       <a href="index.html">Work</a>
+      <a href="skills.html">Skills</a>
+      <a href="awards.html">Awards</a>
+      <a href="about.html">About</a>
     </nav>
   </header>
 
-  <main id="project-details">
-    <h2>Loading...</h2>
+  <main style="padding-right: 30rem;">
+    <section id="project-details">
+      <h2>Loading...</h2>
+    </section>
   </main>
 
-  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const projectDetails = document.getElementById("project-details");
+
+      fetch("projects.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to load projects.json");
+          }
+          return response.json();
+        })
+        .then((projects) => {
+          const params = new URLSearchParams(window.location.search);
+          const projectId = params.get("id");
+          const project = projects.find((p) => p.id === projectId);
+
+          if (project) {
+            const quote = project.quote || {};
+            // exclude the cover image from media shown in detail page
+            const cover = project.coverImage || "";
+            const mediaItems = (project.media || []).filter((m) => m.src !== cover);
+
+            // main description from quote file
+            const mainDesc = quote.Desc || "No description available.";
+
+            projectDetails.innerHTML = `
+              <h1>${project.title}</h1>
+              <p><strong>Category:</strong> ${project.category}</p>
+              <p>${mainDesc}</p>
+              ${mediaItems
+                .map((media, index) => {
+                  // quote keys might be img1, img01, img02 etc. check both formats
+                  const key1 = `img${index + 1}`;
+                  const key2 = `img0${index + 1}`;
+                  const description = quote[key1] || quote[key2] || "";
+
+                  if (media.type === "video") {
+                    return `
+                      <div style="margin-bottom: 2rem;">
+                        <iframe src="${media.src}" frameborder="0" allowfullscreen style="width:100%;height:400px;"></iframe>
+                        ${description ? `<p style="text-align:left;margin-top:0.5rem;">${description}</p>` : ""}
+                      </div>
+                    `;
+                  } else if (media.type === "pdf") {
+                    return `
+                      <div style="margin-bottom: 2rem;">
+                        <embed src="${media.src}" type="application/pdf" width="100%" height="600px">
+                        ${description ? `<p style="text-align:left;margin-top:0.5rem;">${description}</p>` : ""}
+                      </div>
+                    `;
+                  } else if (media.type === "link") {
+                    return `
+                      <div style="margin-bottom: 2rem;">
+                        <a href="${media.src}" target="_blank">${media.src}</a>
+                        ${description ? `<p style="text-align:left;margin-top:0.5rem;">${description}</p>` : ""}
+                      </div>
+                    `;
+                  } else {
+                    // image
+                    return `
+                      <div style="margin-bottom: 2rem;">
+                        <img src="${media.src}" alt="" style="display:block;max-width:100%;margin:0 auto;" />
+                        ${description ? `<p style="text-align:left;margin-top:0.5rem;">${description}</p>` : ""}
+                      </div>
+                    `;
+                  }
+                })
+                .join("")}
+            `;
+          } else {
+            projectDetails.innerHTML = "<p>Project not found.</p>";
+          }
+        })
+        .catch((error) => {
+          projectDetails.innerHTML = `<p>Error loading project details: ${error.message}</p>`;
+        });
+    });
+  </script>
 </body>
 </html>

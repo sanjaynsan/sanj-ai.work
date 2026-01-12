@@ -1,0 +1,8 @@
+Desc: "This project introduces an AI-driven simulation tool designed to revolutionize urban planning by amplifying the perspectives of often-overlooked demographic groups. Developed during a specialized micromobility workshop in collaboration with the Buro Happold team, the tool addresses a critical industry pain point: the difficulty of incorporating the nuanced mobility needs of vulnerable populations—such as pregnant women, children, and the elderly—into the early design stages. 
+To bridge this gap, the system leverages agentic AI and synthetic population modeling to simulate micro-trips within a proposed "zero-corridor" superblock in Riyadh. By embedding specific contextual identities and demographic logic into synthetic agents, the simulation replicates the unique movement patterns and challenges faced by these underrepresented groups. This allows planners to move beyond generic data and "hear" the voices of those most affected by infrastructure decisions before any physical construction begins. 
+Ultimately, this methodology provides a scalable framework for testing human-centered infrastructures, such as last-mile hubs and shared pedestrian networks. By sparking design discussions from the perspective of the most vulnerable users, the tool ensures that future urban mobility visions in dense metropolitan contexts are both inclusive and functionally optimized
+
+More info:https://blog.iaac.net/riyadh-superblock/"
+
+img01:describe image 1
+img04:describe image 4
