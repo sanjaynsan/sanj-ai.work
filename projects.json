@@ -13,10 +13,6 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/AECAI_01_AI_CODE_COMPLIANCE/01_image.gif"
-      },
-      {
-        "type": "image",
         "src": "projects/AECAI_01_AI_CODE_COMPLIANCE/cover.png"
       }
     ]
@@ -278,10 +274,6 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/01_image.gif"
-      },
-      {
-        "type": "image",
         "src": "projects/FABRICATION_01_CLAY PRINTING/02_image.jpg"
       },
       {
@@ -419,7 +411,7 @@
       },
       {
         "type": "image",
-        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/04_image.gif"
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/04_image.jpg"
       },
       {
         "type": "image",
@@ -432,6 +424,14 @@
       {
         "type": "image",
         "src": "projects/PI_01_HEAT_ARCHIPELAGOES/07_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/08_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_01_HEAT_ARCHIPELAGOES/09_image.gif"
       },
       {
         "type": "image",
@@ -452,15 +452,11 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/001_image.JPG"
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/001_image.jpg"
       },
       {
         "type": "image",
         "src": "projects/PI_02_WILDFIRE_PREDICTION/01_image.png"
-      },
-      {
-        "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/02_image.gif"
       },
       {
         "type": "image",
@@ -472,10 +468,6 @@
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/04_image.gif"
-      },
-      {
-        "type": "image",
         "src": "projects/PI_02_WILDFIRE_PREDICTION/04_image.png"
       },
       {
@@ -484,7 +476,7 @@
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/cover.JPG"
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/cover.jpg"
       }
     ]
   },
@@ -510,14 +502,6 @@
       },
       {
         "type": "image",
-        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/03_image.gif"
-      },
-      {
-        "type": "image",
-        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/04_image.gif"
-      },
-      {
-        "type": "image",
         "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/cover.gif"
       }
     ]
@@ -538,15 +522,7 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/001_image.png"
-      },
-      {
-        "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/003_image.png"
-      },
-      {
-        "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/01_image.gif"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/01_image.png"
       },
       {
         "type": "image",
@@ -554,7 +530,7 @@
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/03_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/03_image.gif"
       },
       {
         "type": "image",
@@ -563,6 +539,14 @@
       {
         "type": "image",
         "src": "projects/URBAN_02_SOUNDS_OF_CITIES/06_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/07_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/08_image.png"
       },
       {
         "type": "image",
@@ -583,16 +567,16 @@
     },
     "media": [
       {
-        "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/01_image.gif"
+        "type": "video",
+        "src": "projects/URBAN_03_SAFETY_MAPS/001_image.webm"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/01_image.png"
+        "src": "projects/URBAN_03_SAFETY_MAPS/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/02_image.gif.gif"
+        "src": "projects/URBAN_03_SAFETY_MAPS/02_image.png"
       },
       {
         "type": "image",
@@ -623,11 +607,7 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/01_image.png"
-      },
-      {
-        "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/02_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/01_image.jpg"
       },
       {
         "type": "image",
@@ -635,23 +615,35 @@
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/03_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/03_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/03_image.png"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/04_image.gif"
-      },
-      {
-        "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/05_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/05_image.jpg"
       },
       {
         "type": "image",
         "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/06_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/07_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/08_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/09_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/10_image.gif"
       },
       {
         "type": "image",
@@ -723,7 +715,11 @@
       },
       {
         "type": "image",
-        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/05_image.gif"
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/05_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/06_image.png"
       },
       {
         "type": "image",
@@ -753,7 +749,7 @@
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/03_image.gif"
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/03_image.JPG"
       },
       {
         "type": "image",
