@@ -444,7 +444,7 @@
     "title": "Wildfire Prediction",
     "category": "Planetary Computation",
     "order": 2,
-    "coverImage": "projects/PI_02_WILDFIRE_PREDICTION/cover.jpg",
+    "coverImage": "projects/PI_02_WILDFIRE_PREDICTION/cover.gif",
     "quote": {
       "Desc": "\"Wildfire Prediction was a iaac research project utilizing machine learning algorithms and environmental data analysis to forecast wildfire occurrence, spread patterns, and risk zones at regional and continental scales. The project integrated satellite imagery, weather data, vegetation indices, and historical fire patterns to train predictive models that identify high-risk areas before ignition occurs. By providing early warning systems and resource allocation guidance, the research aims to support emergency preparedness and land management decisions. The project demonstrates how computational intelligence can be applied to planetary-scale environmental challenges, potentially saving lives and protecting ecosystems.",
       "Tech Stack": "Gee, python, QGis , Roboflow \""
@@ -460,7 +460,7 @@
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/02_image.png"
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/02_image.jpg"
       },
       {
         "type": "image",
@@ -476,7 +476,19 @@
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/cover.jpg"
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/06_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/07_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/08_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_WILDFIRE_PREDICTION/cover.gif"
       }
     ]
   },
@@ -690,7 +702,7 @@
     "title": "Data Analysis Barcelona Parking",
     "category": "Urban Computation",
     "order": 6,
-    "coverImage": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/cover.png",
+    "coverImage": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/cover.gif",
     "quote": {
       "Desc": "Loreum ipsum",
       "img01": "describe image 1",
@@ -699,7 +711,7 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/01_image.png"
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/01_image.gif"
       },
       {
         "type": "image",
@@ -723,7 +735,11 @@
       },
       {
         "type": "image",
-        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/cover.png"
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/07_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/cover.gif"
       }
     ]
   },
@@ -732,7 +748,7 @@
     "title": "Recitying Barcelona Temporal Crop Monitoring",
     "category": "Urban Computation",
     "order": 7,
-    "coverImage": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/cover.jpg",
+    "coverImage": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/cover.gif",
     "quote": {
       "Desc": "Loreum ipsum",
       "img01": "describe image 1",
@@ -753,15 +769,15 @@
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/04_image.JPG"
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/COVER.JPG"
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/05_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/Screenshot 2026-01-02 224335.png"
+        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/cover.gif"
       }
     ]
   }

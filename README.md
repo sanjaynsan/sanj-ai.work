@@ -1,2 +1,2 @@
 # sanj-ai.work
-My sample projects for portfolio.
+My sample projects portfolio website.git checkout
