@@ -101,39 +101,51 @@
     ]
   },
   {
-    "id": "arch_01_cheers_stadium_",
-    "title": "Cheers Stadium ",
+    "id": "arch_01_cheers_stadium_(competition_zonal_winner)",
+    "title": "Cheers Stadium (Competition Zonal Winner)",
     "category": "Architecture",
     "order": 1,
-    "coverImage": "projects/ARCH_01_CHEERS_STADIUM_/cover.jpg",
+    "coverImage": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/cover.jpg",
     "quote": {
-      "Desc": "\"Gazhiabada, part of capital region of Delhi, has been the place for several cricket matches. The site being here, surrounded by the URBAN FABRIC on one side and the NATURAL AND CULTIVABLE FARMLANDS on all the other sides pulls people from all around. The water tunnel running to the southeast and southwest of the site becomes an attraction. All these become the PROXIMITY PULLS for the site. So, the stadium has to be iconic to address the variety of context around the site.The design was envisioned in fully on parametrizism,the whole was made into a single script where the optimizers plays with different design and structural possibilities with respect to site condtions.",
-      "img01": "\"The stadium was also have a unique sound and acoustic based element,which is basically kind of a smartcloth...what it can absorb the excess sound and can adapt its shape to the sound produced in the roof.\""
+      "Desc": "\"What if the stadium cheers with you?",
+      "img01": "\"The stadium integrates a sound-responsive roof system developed as a smart fabric. This adaptive layer absorbs excess crowd noise while deforming in response to sound intensity, allowing the roof to visually react to the energy of the spectators.\"",
+      "img02": "\"The entire stadium envelope is conceived as a smart fabric system that responds dynamically to crowd noise. It modulates acoustics by absorbing excess sound while translating collective cheering into spatial and formal transformations.\"",
+      "img03": "\"The stadium geometry and structure are generated parametrically, enabling efficient structural optimization and geometric form-finding. This approach allows seamless coordination between form, performance, and constructability.\"",
+      "img05": "\"Section, elevation, and isometric views illustrate the spatial organization, structural logic, and relationship between the adaptive roof system and seating bowl. These drawings clarify how parametric rules translate into buildable architectural elements.\"",
+      "img06": "\"The project demonstrates how parametric design and responsive materials can redefine large-scale public architecture, transforming the stadium into an interactive entity that responds to both site forces and human activity.\""
     },
     "media": [
       {
         "type": "image",
-        "src": "projects/ARCH_01_CHEERS_STADIUM_/01_image.jpg"
+        "src": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_01_CHEERS_STADIUM_/02_image.jpg"
+        "src": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/02_image.jpg"
+      },
+      {
+        "type": "video",
+        "src": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/02_image.webm"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_01_CHEERS_STADIUM_/03_image.jpg"
+        "src": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/03_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_01_CHEERS_STADIUM_/04_image.jpg"
+        "src": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_01_CHEERS_STADIUM_/05_image.jpg"
+        "src": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/05_image.jpg"
+      },
+      {
+        "type": "video",
+        "src": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/06_image.webm"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_01_CHEERS_STADIUM_/cover.jpg"
+        "src": "projects/ARCH_01_CHEERS_STADIUM_(Competition_zonal_winner)/cover.jpg"
       }
     ]
   },
@@ -183,9 +195,10 @@
     "order": 3,
     "coverImage": "projects/ARCH_03_HIATUS_THE OFFICE/cover.jpg",
     "quote": {
-      "Desc": "Loreum ipsum",
-      "img01": "describe image 1",
-      "img04": "describe image 4"
+      "Desc": "\"This project explores an office building conceived through voids rather than solid mass. The design prioritizes spatial porosity, daylight penetration, and social interaction by carving vertical and horizontal voids into a compact urban volume. Programmatic stacking, environmental analysis, and fa\u00e7ade articulation are used to balance corporate efficiency with collective space, resulting in an office environment defined by circulation, light, and shared experience.\"",
+      "Img01": "\"Exterior night view of the office building within an urban context. The massing is expressed as a stacked volume with a patterned fa\u00e7ade system that responds to solar orientation. The building is perceived as a luminous object, where fa\u00e7ade geometry and glazing articulate internal program and depth.\"",
+      "Img02": "\"Interior perspective showing the central atrium and circulation balconies. The void acts as a social condenser, visually connecting multiple floors. Artificial lighting elements emphasize the ceiling geometry while reinforcing vertical continuity and spatial hierarchy.\"",
+      "Img03": "\"Exploded diagrams and analytical drawings illustrating programmatic massing, environmental strategies, and fa\u00e7ade systems. The images explain solar analysis, service distribution, terracotta fa\u00e7ade logic, and the transformation from solid mass to spatial voids that structure the overall design.\""
     },
     "media": [
       {
@@ -235,58 +248,62 @@
     ]
   },
   {
-    "id": "arch_05_the_cuming_duality(competition)",
-    "title": "The Cuming Duality(Competition)",
+    "id": "arch_05_the_cuming_duality(competition_top_10)",
+    "title": "The Cuming Duality(Competition Top 10)",
     "category": "Architecture",
     "order": 5,
-    "coverImage": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/cover.jpg",
+    "coverImage": "projects/ARCH_05_THE_CUMING_DUALITY(Competition_Top_10)/cover.jpg",
     "quote": {
       "Desc": "\"The Cuming Duality was a competition design project exploring the relationship between contrasting urban conditions and the creation of dynamic public spaces that bridge different contexts. The design investigates the interplay between solid and void, permanence and ephemera, and cultural identity and global influence. Through carefully orchestrated spatial sequences and material contrasts, the project creates environments that celebrate dualities while fostering unity and unexpected connections. The architecture demonstrates how thoughtful design can transform challenging site conditions into opportunities for innovative place-making.\""
     },
     "media": [
       {
         "type": "image",
-        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/01_image.jpg"
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition_Top_10)/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/02_image.jpg"
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition_Top_10)/02_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/03_image.jpg"
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition_Top_10)/03_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition)/cover.jpg"
+        "src": "projects/ARCH_05_THE_CUMING_DUALITY(Competition_Top_10)/cover.jpg"
       }
     ]
   },
   {
-    "id": "fabrication_01_clay printing",
-    "title": "Clay Printing",
+    "id": "fabrication_01_more than human_clay_printing \u2014 santa coloma, barcelona",
+    "title": "More Than Human Clay Printing \u2014 Santa Coloma, Barcelona",
     "category": "Fabrication",
     "order": 1,
-    "coverImage": "projects/FABRICATION_01_CLAY PRINTING/cover.jpg",
+    "coverImage": "projects/FABRICATION_01_MORE THAN HUMAN_CLAY_PRINTING \u2014 Santa Coloma, Barcelona/cover.jpg",
     "quote": {
-      "Desc": "\"This project, part of the \"MORE THAN HUMANS\" studio, explored advanced clay additive manufacturing. It used parametric design algorithms to create complex, 3D-printed ceramic homes for barn swallows. The sustainable, collaborative, and participatory design process involved working with local people near Santa Coloma, Barcelona. The research successfully combined digital fabrication precision with the tactile warmth of traditional clay craft. This approach demonstrated how robotic printing could enable mass customization while maintaining artisanal qualities\"."
+      "Desc": "\"What does design mean when the client is not human?",
+      "Img01": "\"A conceptual design study illustrates how the clay-printed nesting structures can be integrated into urban surfaces and architectural elements within Santa Coloma.\"",
+      "Img02": "\"A modular clay-printed nest prototype demonstrates how parametric design logic adapts form, thickness, and porosity to the nesting needs of the barn swallow.\"",
+      "Img03": "\"A full-scale robotic clay-printing setup fabricates the nesting modules at 1:1 scale, validating the constructability and material behavior of the system.\"",
+      "Img04": "\"The project concludes by proposing clay printing as a scalable, low-impact method for supporting endangered urban species, reframing architectural production through a more-than-human lens.\""
     },
     "media": [
       {
         "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/02_image.jpg"
+        "src": "projects/FABRICATION_01_MORE THAN HUMAN_CLAY_PRINTING \u2014 Santa Coloma, Barcelona/02_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/03_image.jpg"
+        "src": "projects/FABRICATION_01_MORE THAN HUMAN_CLAY_PRINTING \u2014 Santa Coloma, Barcelona/03_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/04_image.jpg"
+        "src": "projects/FABRICATION_01_MORE THAN HUMAN_CLAY_PRINTING \u2014 Santa Coloma, Barcelona/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/FABRICATION_01_CLAY PRINTING/cover.jpg"
+        "src": "projects/FABRICATION_01_MORE THAN HUMAN_CLAY_PRINTING \u2014 Santa Coloma, Barcelona/cover.jpg"
       }
     ]
   },
@@ -394,7 +411,15 @@
     "coverImage": "projects/PI_01_HEAT_ARCHIPELAGOES/cover.gif",
     "quote": {
       "Desc": "\"Heat Archipelagoes is a project Done in iaac with",
-      "More information": "https://blog.iaac.net/heat-archipelagos/\""
+      "More information": "https://blog.iaac.net/heat-archipelagos/\"",
+      "Img01": "\"CCVI \u2013 understanding global condition:",
+      "Img02": "\"Based on the CCVI data, we visualize maps showing the places affected due to heat waves in world with respect to vulnerability.\"",
+      "Img03": "\"In order to learn the effects more in detail, we started to use the urban scale lenses and pick the cities from the index.\"",
+      "Img04": "\"Urban Heat: A Spatial Perspective:",
+      "Img05": "\"Heat shapes of city \u2013 loop and repetition",
+      "Img06": "\"Machine Learning and Clustering:",
+      "Img07": "\"Major strategy of using the machine learning is to categorize the shapes of heat in the city. This was achieved by converting the binary maps of city into archipelagos (contour) model by grouping the points based on values.\"",
+      "Img08": "\"Clusters and analysis:"
     },
     "media": [
       {
@@ -440,55 +465,70 @@
     ]
   },
   {
-    "id": "pi_02_wildfire_prediction",
-    "title": "Wildfire Prediction",
+    "id": "pi_02_firelines \u2014 multi-scale wildfire risk intelligence",
+    "title": "Firelines \u2014 Multi-Scale Wildfire Risk Intelligence",
     "category": "Planetary Computation",
     "order": 2,
-    "coverImage": "projects/PI_02_WILDFIRE_PREDICTION/cover.gif",
+    "coverImage": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/cover.gif",
     "quote": {
-      "Desc": "\"Wildfire Prediction was a iaac research project utilizing machine learning algorithms and environmental data analysis to forecast wildfire occurrence, spread patterns, and risk zones at regional and continental scales. The project integrated satellite imagery, weather data, vegetation indices, and historical fire patterns to train predictive models that identify high-risk areas before ignition occurs. By providing early warning systems and resource allocation guidance, the research aims to support emergency preparedness and land management decisions. The project demonstrates how computational intelligence can be applied to planetary-scale environmental challenges, potentially saving lives and protecting ecosystems.",
-      "Tech Stack": "Gee, python, QGis , Roboflow \""
+      "Desc": "\"Can wildfire risk be anticipated before it becomes an emergency?",
+      "Img01": "\"A global overview of recent wildfire events contextualizes the increasing frequency and geographic spread of fires across multiple regions.\"",
+      "Img02": "\"A temporal data visualization highlights the rising number of wildfire-related fatalities over time, indicating an accelerating global risk trend.\"",
+      "Img03": "\"A narrative comic translates wildfire intelligence for different stakeholders, including insurance actors, local residents, community leaders, and urban planners, emphasizing varied preparedness needs.\"",
+      "Img04": "\"The project framework is structured across three spatial scales\u2014macro, meso, and micro\u2014defining how data, analysis, and decision support adapt to different levels of intervention.\"",
+      "Img05": "\"At the macro scale, NDVI and NDMI indices are correlated to identify global vegetation and moisture patterns associated with wildfire-prone regions, validated across multiple cities.\"",
+      "Img06": "\"At the meso scale, global environmental data is combined with local infrastructure datasets such as fire stations, hospitals, and water access points to generate regional wildfire vulnerability maps.\"",
+      "Img07": "\"At the micro scale, satellite imagery and machine learning models trained in Roboflow detect community-level resources\u2014such as swimming pools\u2014that can act as emergency fire-response assets.\"",
+      "Img08": "\"The project concludes by demonstrating how multi-scale environmental intelligence can support community preparedness, equitable risk communication, and informed land-use decisions through an open, accessible digital platform.\""
     },
     "media": [
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/001_image.jpg"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/001_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/01_image.png"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/01_image.png"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/02_image.jpg"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/02_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/03_image.png"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/03_image.png"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/04_image.png"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/04_image.png"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/05_image.png"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/05_image.png"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/06_image.gif"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/06_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/07_image.png"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/07_image.png"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/08_image.png"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/08_image.png"
       },
       {
         "type": "image",
-        "src": "projects/PI_02_WILDFIRE_PREDICTION/cover.gif"
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/09_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/10_image.png"
+      },
+      {
+        "type": "image",
+        "src": "projects/PI_02_FIRELINES \u2014 Multi-Scale Wildfire Risk Intelligence/cover.gif"
       }
     ]
   },
@@ -499,9 +539,10 @@
     "order": 1,
     "coverImage": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/cover.gif",
     "quote": {
-      "Desc": "Loreum ipsum",
-      "img01": "describe image 1",
-      "img04": "describe image 4"
+      "Desc": "\"This project explores the use of generative design workflows combined with environmental simulation to support the regenerative redevelopment of Al Quoz, Dubai. The study applies parametric systems to transform an existing industrial district into a mixed-use, human-centered urban fabric. By enabling multi-scenario design exploration, the framework supports informed decision-making while responding to contextual, environmental, and stakeholder-driven constraints.",
+      "Img01": "\"Generative Framework and Stakeholder Constraints",
+      "Img02": "\" Performance Metrics and Microclimate Simulation",
+      "Img03": "\"capability Across Urban and Building Scales"
     },
     "media": [
       {
@@ -514,152 +555,173 @@
       },
       {
         "type": "image",
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/03_image.gif"
+      },
+      {
+        "type": "image",
+        "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/04_image.gif"
+      },
+      {
+        "type": "image",
         "src": "projects/URBAN_01_GENERATIVE_URBAN_PLANNING_ Al Quoz, Dubai/cover.gif"
       }
     ]
   },
   {
-    "id": "urban_02_sounds_of_cities",
-    "title": "Sounds Of Cities",
+    "id": "urban_02_sounds_of_cities_gr\u00e0cia, barcelona",
+    "title": "Sounds Of Cities Gr\u00e0cia, Barcelona",
     "category": "Urban Computation",
     "order": 2,
-    "coverImage": "projects/URBAN_02_SOUNDS_OF_CITIES/cover.png",
+    "coverImage": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/cover.png",
     "quote": {
       "Desc": "\"(Not everything matters can be measured)",
-      "Rather than using traditional acoustic sensors, the approach synthesizes visual cues and spatial context to simulate what a place sounds like. These AI-predicted sounds are then dissected into \u201cgood\u201d and \u201cbad\u201d categories, not by decibel count but by experiential quality\u2014challenging the objectivity of noise pollution standards. The project raises critical questions about subjectivity in urban design": "Can serenity be modeled? Can discomfort be detected through visuals alone? And most importantly, should all that\u2019s loud be silenced?",
       "Tech stack used": "VLM (Mistral , N8N ,Rag ,SVI)\"",
-      "img01": "describe image 1",
-      "img04": "describe image 4"
+      "Img01": "\"On-site video and audio recordings were collected and processed using AI-based sound segregation models, separating composite urban noise into distinct sound sources for further analysis.\"",
+      "Img02": "\"Video frames extracted per second were analyzed using visual language models (VLMs), enabling the system to infer past and potential future sound events based on visual cues within the scene.\"",
+      "Img03": "\"A district-scale sound map of Gr\u00e0cia was generated, classifying localized sound types such as wind, rustling, ambient activity, and mechanical noise across the urban fabric.\"",
+      "Img04": "\"A graph neural network was constructed to visualize relationships between visual data, sound sources, and spatial context, highlighting interdependencies across the dataset.\"",
+      "Img05": "\"Sound intensity was mapped onto the Gr\u00e0cia district using wave-based representations, identifying zones of high and low acoustic activity.\"",
+      "Img06": "\"All detected sounds were categorized into semantic groups\u2014nature, human activity, warning signals, mechanical noise, and unpleasant sounds\u2014forming a composite, color-coded urban soundscape.\"",
+      "Img07": "\"The project culminated in an AI-driven art installation, translating collected urban sounds into musical compositions and spatial bubbles that simulate the sonic personas of Gr\u00e0cia\u2019s inhabitants.\""
     },
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/01_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/01_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/02_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/02_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/03_image.gif"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/03_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/04_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/04_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/06_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/06_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/07_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/07_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/08_image.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/08_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_02_SOUNDS_OF_CITIES/cover.png"
+        "src": "projects/URBAN_02_SOUNDS_OF_CITIES_Gr\u00e0cia, Barcelona/cover.png"
       }
     ]
   },
   {
-    "id": "urban_03_safety_maps",
-    "title": "Safety Maps",
+    "id": "urban_03_safety_maps_jakarta, indonesia",
+    "title": "Safety Maps Jakarta, Indonesia",
     "category": "Urban Computation",
     "order": 3,
-    "coverImage": "projects/URBAN_03_SAFETY_MAPS/cover.gif",
+    "coverImage": "projects/URBAN_03_SAFETY_MAPS_Jakarta, Indonesia/cover.gif",
     "quote": {
-      "Desc": "Loreum ipsum",
-      "img01": "describe image 1",
-      "img04": "describe image 4"
+      "Desc": "\"Transportation planning has traditionally optimized for shortest and fastest routes\u2014but are these routes the ones people actually feel safe using?",
+      "Img01": "\"An interactive route-selection prototype demonstrates three alternative paths between two points. Each route is evaluated using city data silos and assigned performance metrics such as street lighting, pavement quality, human presence, and environmental comfort. A text-based query allows users to request routes based on safety preferences, such as night-time lighting, shade, or active street life.\"",
+      "Img02": "\"The project foregrounds lived experience, particularly women\u2019s mobility in Jakarta, highlighting safety perception as a critical yet often overlooked parameter in urban transportation systems.\"",
+      "Img03": "\"A detailed methodology diagram outlines the full data pipeline, integrating sources such as Google Street View (SVI), TomTom Traffic Index, OpenStreetMap (OSM), and other open datasets to construct layered urban data silos representing city assets and conditions.\"",
+      "Img04": "\"A comparative analysis visualizes key performance metrics across multiple route options, enabling transparent evaluation of safety-related factors rather than distance-based optimization alone.\"",
+      "Img05": "\"The project concludes with a transferable framework for safety-oriented routing that can be applied to other cities. The methodology supports inclusive mobility planning and data-informed micro-mobility strategies.",
+      "GitHub Repository": "[link placeholder]\""
     },
     "media": [
       {
         "type": "video",
-        "src": "projects/URBAN_03_SAFETY_MAPS/001_image.webm"
+        "src": "projects/URBAN_03_SAFETY_MAPS_Jakarta, Indonesia/001_image.webm"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/01_image.jpg"
+        "src": "projects/URBAN_03_SAFETY_MAPS_Jakarta, Indonesia/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/02_image.png"
+        "src": "projects/URBAN_03_SAFETY_MAPS_Jakarta, Indonesia/02_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/03_image.gif"
+        "src": "projects/URBAN_03_SAFETY_MAPS_Jakarta, Indonesia/03_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/04_image.png"
+        "src": "projects/URBAN_03_SAFETY_MAPS_Jakarta, Indonesia/04_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_03_SAFETY_MAPS/cover.gif"
+        "src": "projects/URBAN_03_SAFETY_MAPS_Jakarta, Indonesia/cover.gif"
       }
     ]
   },
   {
-    "id": "urban_04_micromobility_validation_with_ai_agents",
-    "title": "Micromobility Validation With Ai Agents",
+    "id": "urban_04_micromobility_validation_with_ai_agents_riyadh, saudi arabia",
+    "title": "Micromobility Validation With Ai Agents Riyadh, Saudi Arabia",
     "category": "Urban Computation",
     "order": 4,
-    "coverImage": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/cover.jpg",
+    "coverImage": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/cover.jpg",
     "quote": {
-      "Desc": "\"This project introduces an AI-driven simulation tool designed to revolutionize urban planning by amplifying the perspectives of often-overlooked demographic groups. Developed during a specialized micromobility workshop in collaboration with the Buro Happold team, the tool addresses a critical industry pain point: the difficulty of incorporating the nuanced mobility needs of vulnerable populations\u2014such as pregnant women, children, and the elderly\u2014into the early design stages.",
+      "Desc": "\"How can proposed mobility interventions be evaluated before they are built?",
       "More info": "https://blog.iaac.net/riyadh-superblock/\"",
-      "img01": "describe image 1",
-      "img04": "describe image 4"
+      "Img01": "\"An access and modal-share analysis highlights the dominance of private vehicles and the fragmented coverage of metro lines and bus stops within the selected Riyadh neighborhood, revealing significant mobility gaps.\"",
+      "Img02": "\"A comparative scale study contrasts the Barcelona superblock with a typical Riyadh neighborhood block, illustrating the challenge of adapting human-scale mobility concepts to much larger urban parcels.\"",
+      "Img03": "\"Shortest-path analysis maps pedestrian access from residential streets to public amenities such as metro stations, bus stops, parks, and schools, exposing inefficiencies in the existing network.\"",
+      "Img04": "\"Walking-distance buffers of 5, 7, and 10 minutes from transit nodes demonstrate extensive areas beyond reasonable pedestrian reach, reinforcing the need for alternative micro-mobility solutions.\"",
+      "Img05": "\"A proposed car-free green corridor network introduces shaded walkways, autonomous vehicles, and continuous pedestrian links, strategically looped to reconnect underserved zones.\"",
+      "Img06": "\"An AI-agent simulation tool evaluates mobility choices between origin and destination points. Users can modify inputs and observe how different personas\u2014defined by age, gender, and daily responsibilities\u2014select among transport modes such as walking, car, taxi, autonomous vehicles, or the proposed green corridors. The system does not aim for predictive certainty but instead enables scenario testing and comparative behavioral insight.\"",
+      "Img07": "\"The project concludes with a transferable validation framework that supports early-stage decision-making, participatory discussion, and risk-aware mobility planning for car-centric cities transitioning toward micro-mobility and autonomous systems.\""
     },
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/01_image.jpg"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/01_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/02_image.png"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/02_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/03_image.jpg"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/03_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/04_image.jpg"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/05_image.jpg"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/05_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/06_image.png"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/06_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/07_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/07_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/08_image.png"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/08_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/09_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/09_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/10_image.gif"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/10_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS/cover.jpg"
+        "src": "projects/URBAN_04_MICROMOBILITY_VALIDATION_WITH_AI_AGENTS_Riyadh, Saudi Arabia/cover.jpg"
       }
     ]
   },
@@ -670,9 +732,11 @@
     "order": 5,
     "coverImage": "projects/URBAN_05_15_MINUTE_CITY/cover.png",
     "quote": {
-      "Desc": "Loreum ipsum",
-      "img01": "describe image 1",
-      "img04": "describe image 4"
+      "Desc": "\"How walkable and self-sufficient is a city when measured beyond policy slogans?",
+      "Img01": "\"A conceptual diagram introduces the 15-minute city framework, outlining the relationship between time-based accessibility, daily needs, and urban proximity.\"",
+      "Img02": "\"The city is divided into spatial grids and evaluated based on the distribution and density of essential amenities within a 15-minute walking radius, highlighting patterns of concentration and scarcity.\"",
+      "Img03": "\"A composite 15-minute Cityness index overlays population data and amenity coverage across Bengaluru, revealing mismatches between highly populated zones and accessible urban services.\"",
+      "Img04": "\"The project concludes with a network-based visualization that connects origin points to reachable amenities, illustrating the fragmented nature of urban access and reinforcing the need for spatially balanced, proximity-driven planning strategies.\""
     },
     "media": [
       {
@@ -704,9 +768,15 @@
     "order": 6,
     "coverImage": "projects/URBAN_06_DATA_ANALYSIS_BARCELONA_PARKING/cover.gif",
     "quote": {
-      "Desc": "Loreum ipsum",
-      "img01": "describe image 1",
-      "img04": "describe image 4"
+      "Desc": "\"How much urban space does a city allocate to parking, and how evenly is it distributed?",
+      "Img01": "\"A city-scale map overlays all parking typologies across Barcelona, revealing spatial concentration patterns relative to urban density.\"",
+      "Img02": "\"District-level comparisons visualize total district area against the area allocated to parking, showing that parking provision is not proportional to district size but closely tied to historical urban form and mobility culture.\"",
+      "Img03": "\"A breakdown of total parking surface by type highlights the dominance of car parking, followed by motorcycle parking and loading zones, indicating opportunities for spatial rebalancing.\"",
+      "Img04": "\"Neighborhood-scale analysis reveals localized disparities in parking surface allocation, exposing areas with disproportionate loss of public space.\"",
+      "Img05": "\"A count-based comparison of parking spaces by type shows motorcycles occupying the highest number of spaces, followed by cars, loading zones, and accessible parking, with bicycle parking remaining comparatively limited.\"",
+      "Img06": "\"District-level totals of parking space counts demonstrate how areas with smaller parking footprints can still accommodate high parking volumes through two-wheeler infrastructure.\"",
+      "Img07": "\"All bicycle parking locations are vectorized and mapped, enabling the identification of underserved and unserved areas across the city.\"",
+      "Img08": "\"The project concludes by framing parking data as a policy instrument, supporting data-informed decisions for reclaiming public space and rebalancing mobility priorities.\""
     },
     "media": [
       {
@@ -744,40 +814,43 @@
     ]
   },
   {
-    "id": "urban_07_recitying barcelona_temporal crop monitoring",
-    "title": "Recitying Barcelona Temporal Crop Monitoring",
+    "id": "urban_07_land + art \u2014 temporal crop monitoring (research assistant)",
+    "title": "Land + Art \u2014 Temporal Crop Monitoring (Research Assistant)",
     "category": "Urban Computation",
     "order": 7,
-    "coverImage": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/cover.gif",
+    "coverImage": "projects/URBAN_07_Land + Art \u2014 Temporal Crop Monitoring (Research Assistant)/cover.gif",
     "quote": {
-      "Desc": "Loreum ipsum",
-      "img01": "describe image 1",
-      "img04": "describe image 4"
+      "Desc": "\"How can land-based artistic experiments be monitored with scientific rigor over time?",
+      "Img01": "\"A temporal satellite-based visualization tracks crop growth from September to April 2025. Monthly imagery highlights distinct cultivation zones, each dedicated to a different plant species such as sunflower, barley, rice, and flax.\"",
+      "Img02": "\"Drone imagery was processed into point clouds using photogrammetry workflows, enabling spatial and volumetric analysis of crop conditions through 3D data extraction.\"",
+      "Img03": "\"Students from interdisciplinary backgrounds experiment with harvested crops to develop biomaterials and physical products, linking agricultural processes to material research and fabrication.\"",
+      "Img04": "\"A synthesized temporal diagram compares growth performance across twelve crop zones, quantifying production rates, water consumption, and seasonal variation over the nine-month cycle.\"",
+      "Img05": "\"The project demonstrates how remote sensing and temporal analysis can support long-term monitoring of land-based artistic and material research, bridging environmental data and design experimentation.\""
     },
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/01_image.gif"
+        "src": "projects/URBAN_07_Land + Art \u2014 Temporal Crop Monitoring (Research Assistant)/01_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/02_image.png"
+        "src": "projects/URBAN_07_Land + Art \u2014 Temporal Crop Monitoring (Research Assistant)/02_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/03_image.JPG"
+        "src": "projects/URBAN_07_Land + Art \u2014 Temporal Crop Monitoring (Research Assistant)/03_image.JPG"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/04_image.jpg"
+        "src": "projects/URBAN_07_Land + Art \u2014 Temporal Crop Monitoring (Research Assistant)/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/05_image.png"
+        "src": "projects/URBAN_07_Land + Art \u2014 Temporal Crop Monitoring (Research Assistant)/05_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_ReCITYing Barcelona_Temporal Crop Monitoring/cover.gif"
+        "src": "projects/URBAN_07_Land + Art \u2014 Temporal Crop Monitoring (Research Assistant)/cover.gif"
       }
     ]
   }

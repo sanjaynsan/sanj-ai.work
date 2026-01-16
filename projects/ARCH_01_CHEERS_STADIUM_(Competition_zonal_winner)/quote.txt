@@ -1,0 +1,12 @@
+Desc: "What if the stadium cheers with you?
+Ghaziabad, part of the National Capital Region of Delhi, has hosted several cricket matches and attracts large crowds. The site is bordered by dense urban fabric on one side and natural, cultivable farmlands on the others, creating a strong contrast in context. Water tunnels running along the southeast and southwest edges act as visual and environmental attractors. These conditions generate multiple proximity pulls, demanding a stadium that is both iconic and responsive. The design is fully driven by parametric workflows, developed as a single script where optimizers explore multiple formal and structural possibilities based on site conditions."
+
+img01: "The stadium integrates a sound-responsive roof system developed as a smart fabric. This adaptive layer absorbs excess crowd noise while deforming in response to sound intensity, allowing the roof to visually react to the energy of the spectators."
+
+img02: "The entire stadium envelope is conceived as a smart fabric system that responds dynamically to crowd noise. It modulates acoustics by absorbing excess sound while translating collective cheering into spatial and formal transformations."
+
+img03: "The stadium geometry and structure are generated parametrically, enabling efficient structural optimization and geometric form-finding. This approach allows seamless coordination between form, performance, and constructability."
+
+img05: "Section, elevation, and isometric views illustrate the spatial organization, structural logic, and relationship between the adaptive roof system and seating bowl. These drawings clarify how parametric rules translate into buildable architectural elements."
+
+img06: "The project demonstrates how parametric design and responsive materials can redefine large-scale public architecture, transforming the stadium into an interactive entity that responds to both site forces and human activity."

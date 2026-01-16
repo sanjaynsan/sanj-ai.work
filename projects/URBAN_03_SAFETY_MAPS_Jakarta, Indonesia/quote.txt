@@ -1,0 +1,15 @@
+Desc: "Transportation planning has traditionally optimized for shortest and fastest routes—but are these routes the ones people actually feel safe using?
+This project investigates urban mobility in Jakarta through the lens of safety perception, with a particular focus on gender-based mobility inequality. Field research and interviews revealed that women experience significant safety challenges in everyday travel, despite ongoing efforts by NGOs and local initiatives to improve urban mobility conditions.
+
+A data-driven methodology was developed to identify and prioritize the safest routes rather than the shortest ones. By collaborating with local non-profit organizations such as RaraRara and KotaKota, the project integrates social, environmental, temporal, and personal factors into route evaluation. Using multi-source urban data, the system supports NGOs and planners in identifying safer mobility corridors and informing equitable micro-mobility development in a rapidly evolving transportation landscape."
+
+Img01: "An interactive route-selection prototype demonstrates three alternative paths between two points. Each route is evaluated using city data silos and assigned performance metrics such as street lighting, pavement quality, human presence, and environmental comfort. A text-based query allows users to request routes based on safety preferences, such as night-time lighting, shade, or active street life."
+
+Img02: "The project foregrounds lived experience, particularly women’s mobility in Jakarta, highlighting safety perception as a critical yet often overlooked parameter in urban transportation systems."
+
+Img03: "A detailed methodology diagram outlines the full data pipeline, integrating sources such as Google Street View (SVI), TomTom Traffic Index, OpenStreetMap (OSM), and other open datasets to construct layered urban data silos representing city assets and conditions."
+
+Img04: "A comparative analysis visualizes key performance metrics across multiple route options, enabling transparent evaluation of safety-related factors rather than distance-based optimization alone."
+
+Img05: "The project concludes with a transferable framework for safety-oriented routing that can be applied to other cities. The methodology supports inclusive mobility planning and data-informed micro-mobility strategies.
+GitHub Repository: [link placeholder]"

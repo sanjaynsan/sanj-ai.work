@@ -1,3 +1,12 @@
-Desc: Loreum ipsum
-img01:describe image 1
-img04:describe image 4
+Desc: "How walkable and self-sufficient is a city when measured beyond policy slogans?
+This project evaluates the 15-minute city concept through a data-driven lens, introducing Cityness as a quantitative measure of urban self-sufficiency. Using Bengaluru—often labeled the Silicon Valley of India—as a case study, the project contrasts its global technological prominence with its mobility reality, where congestion and travel inefficiency dominate daily life.
+
+Building on Carlos Moreno’s 15-minute city framework, the study analyzes whether daily urban needs can realistically be met within a 15-minute walking radius. Computational workflows using Grasshopper and OpenStreetMap (OSM) data were employed to measure amenity accessibility, spatial distribution, and population coverage. The result is a city-wide index that visualizes uneven access, revealing structural disparities between density, infrastructure, and everyday urban life."
+
+Img01: "A conceptual diagram introduces the 15-minute city framework, outlining the relationship between time-based accessibility, daily needs, and urban proximity."
+
+Img02: "The city is divided into spatial grids and evaluated based on the distribution and density of essential amenities within a 15-minute walking radius, highlighting patterns of concentration and scarcity."
+
+Img03: "A composite 15-minute Cityness index overlays population data and amenity coverage across Bengaluru, revealing mismatches between highly populated zones and accessible urban services."
+
+Img04: "The project concludes with a network-based visualization that connects origin points to reachable amenities, illustrating the fragmented nature of urban access and reinforcing the need for spatially balanced, proximity-driven planning strategies."

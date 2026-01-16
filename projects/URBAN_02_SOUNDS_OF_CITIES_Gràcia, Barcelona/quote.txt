@@ -1,0 +1,20 @@
+Desc: "(Not everything matters can be measured) 
+Can urban sound be measured, interpreted, and designed rather than simply mitigated?
+This project investigates how artificial intelligence and machine learning can be used to identify and evaluate intangible urban phenomena—specifically sound—as a spatial and cultural asset. Focusing on the Gràcia district in Barcelona, the study challenges the assumption that all urban noise is inherently negative and instead asks how different sound types contribute to urban experience and identity.
+
+A computational methodology was developed combining audio analysis, computer vision, and large visual language models (VLMs). Site-recorded videos were decomposed into audio tracks and frame-by-frame imagery. AI models were trained to segregate, classify, and predict sound events across time, enabling the construction of a multi-layered urban sound map. The project reveals sonic conditions that are often imperceptible to human senses and proposes sound as an active design parameter in urban analysis and representation.
+Tech stack used: VLM (Mistral , N8N ,Rag ,SVI)"
+
+Img01: "On-site video and audio recordings were collected and processed using AI-based sound segregation models, separating composite urban noise into distinct sound sources for further analysis."
+
+Img02: "Video frames extracted per second were analyzed using visual language models (VLMs), enabling the system to infer past and potential future sound events based on visual cues within the scene."
+
+Img03: "A district-scale sound map of Gràcia was generated, classifying localized sound types such as wind, rustling, ambient activity, and mechanical noise across the urban fabric."
+
+Img04: "A graph neural network was constructed to visualize relationships between visual data, sound sources, and spatial context, highlighting interdependencies across the dataset."
+
+Img05: "Sound intensity was mapped onto the Gràcia district using wave-based representations, identifying zones of high and low acoustic activity."
+
+Img06: "All detected sounds were categorized into semantic groups—nature, human activity, warning signals, mechanical noise, and unpleasant sounds—forming a composite, color-coded urban soundscape."
+
+Img07: "The project culminated in an AI-driven art installation, translating collected urban sounds into musical compositions and spatial bubbles that simulate the sonic personas of Gràcia’s inhabitants."

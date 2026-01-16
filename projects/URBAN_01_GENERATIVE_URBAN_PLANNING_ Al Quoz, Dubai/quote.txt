@@ -1,3 +1,12 @@
-Desc: Loreum ipsum
-img01:describe image 1
-img04:describe image 4
+Desc: "This project explores the use of generative design workflows combined with environmental simulation to support the regenerative redevelopment of Al Quoz, Dubai. The study applies parametric systems to transform an existing industrial district into a mixed-use, human-centered urban fabric. By enabling multi-scenario design exploration, the framework supports informed decision-making while responding to contextual, environmental, and stakeholder-driven constraints.
+
+Environmental performance criteria—including daylight availability, thermal comfort, and urban wind behavior—are embedded within the generative process. This allows the evaluation of adaptive reuse strategies and spatial configurations based on measurable performance outcomes. The project demonstrates how algorithmic design can guide sustainable urban transformation aligned with Dubai’s evolving urban agenda." 
+
+Img01:"Generative Framework and Stakeholder Constraints
+The generative system was developed to accommodate stakeholder-defined parameters, including mixed-use ratios, high-rise and low-rise distribution, and achievable floor area ratio (FAR). These constraints are embedded directly into the parametric logic to ensure regulatory and programmatic compliance across multiple design scenarios." 
+
+Img02:" Performance Metrics and Microclimate Simulation
+Key performance indicators were integrated into the workflow to evaluate each generated scenario. Environmental simulations were conducted to assess microclimatic behavior, enabling comparison of design options based on thermal comfort, shading performance, and wind flow efficiency." 
+
+Img03: "capability Across Urban and Building Scales
+The same generative methodology was extended to smaller scales, including towers and high-rise buildings. This iteration focuses on daylight performance across multiple scenarios, demonstrating the adaptability of the algorithm from urban-scale planning to architectural-scale optimization.”

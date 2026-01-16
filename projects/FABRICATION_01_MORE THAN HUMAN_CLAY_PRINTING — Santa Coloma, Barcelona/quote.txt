@@ -1,0 +1,12 @@
+Desc: "What does design mean when the client is not human?
+This project was developed within the More-Than-Human research studio and applies a non-anthropocentric design approach to a neighborhood in Santa Coloma, Barcelona. The study began with a multispecies mapping of the area, identifying relationships between urban form, ecological systems, and non-human inhabitants. Through this process, the barn swallow was identified as a vulnerable species whose nesting habitats have been progressively disappearing.
+
+The project proposes a parametric, clay-based fabrication system to create adaptive nesting structures integrated into the built environment. Using computational design and robotic clay printing, the intervention reframes architecture as a shared ecological interface. Developed in collaboration with local residents and NGOs, the project positions fabrication as a tool for coexistence rather than occupation."
+
+Img01: "A conceptual design study illustrates how the clay-printed nesting structures can be integrated into urban surfaces and architectural elements within Santa Coloma."
+
+Img02: "A modular clay-printed nest prototype demonstrates how parametric design logic adapts form, thickness, and porosity to the nesting needs of the barn swallow."
+
+Img03: "A full-scale robotic clay-printing setup fabricates the nesting modules at 1:1 scale, validating the constructability and material behavior of the system."
+
+Img04: "The project concludes by proposing clay printing as a scalable, low-impact method for supporting endangered urban species, reframing architectural production through a more-than-human lens."

@@ -1,3 +1,7 @@
-Desc: Loreum ipsum
-img01:describe image 1
-img04:describe image 4
+Desc: "This project explores an office building conceived through voids rather than solid mass. The design prioritizes spatial porosity, daylight penetration, and social interaction by carving vertical and horizontal voids into a compact urban volume. Programmatic stacking, environmental analysis, and façade articulation are used to balance corporate efficiency with collective space, resulting in an office environment defined by circulation, light, and shared experience."
+
+Img01: "Exterior night view of the office building within an urban context. The massing is expressed as a stacked volume with a patterned façade system that responds to solar orientation. The building is perceived as a luminous object, where façade geometry and glazing articulate internal program and depth."
+
+Img02: "Interior perspective showing the central atrium and circulation balconies. The void acts as a social condenser, visually connecting multiple floors. Artificial lighting elements emphasize the ceiling geometry while reinforcing vertical continuity and spatial hierarchy."
+
+Img03: "Exploded diagrams and analytical drawings illustrating programmatic massing, environmental strategies, and façade systems. The images explain solar analysis, service distribution, terracotta façade logic, and the transformation from solid mass to spatial voids that structure the overall design."

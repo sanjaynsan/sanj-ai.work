@@ -1,0 +1,48 @@
+Role: Research Assistant
+Location: Parc Agrari del Baix Llobregat, Barcelona
+Affiliation: IAAC / ReCITYing (Creative Europe)
+
+Project Overview
+
+ReCITYing is a European research and design initiative exploring how underused urban and rural landscapes can be reactivated through art, architecture, and data-driven methodologies. The Barcelona pilot focused on the Parc Agrari del Baix Llobregat—an active agricultural landscape under constant pressure from urban expansion.
+
+As part of the Barcelona lands art research team, I developed a method to monitor agricultural fields temporally using satellite data, enabling a spatial and seasonal understanding of crop dynamics across the site.
+
+Research Focus
+
+My work addressed a core challenge in landscape-scale projects:
+how to make long-term agricultural processes visible, measurable, and comparable across time.
+
+Using multi-temporal satellite imagery, I analyzed:
+
+seasonal crop growth patterns
+
+vegetation health and variability
+
+differences between crop types and management cycles
+
+This allowed the team to move beyond static site analysis and engage with the land as a living, changing system.
+
+Methodology
+
+Multi-temporal satellite data analysis (NDVI and derived indicators)
+
+Crop-specific temporal profiling
+
+Spatial aggregation at field and parcel scale
+
+Visualization of seasonal trends through radial and time-series representations
+
+The outputs translated complex remote-sensing data into intuitive visual formats that could be used by designers, artists, and researchers working on the project.
+
+Outcome & Impact
+
+The developed methodology supported:
+
+data-informed land art and spatial interventions
+
+seasonal narratives of agricultural production
+
+improved dialogue between scientific analysis and design exploration
+
+By embedding satellite-based crop monitoring into a creative research context, the work demonstrated how environmental data can inform cultural and spatial practices, especially in productive landscapes at the urban edge.
