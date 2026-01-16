@@ -5,16 +5,16 @@ A selected Riyadh neighborhood was analyzed to understand modal share imbalance 
 
 More info:https://blog.iaac.net/riyadh-superblock/"
 
-Img01: "An access and modal-share analysis highlights the dominance of private vehicles and the fragmented coverage of metro lines and bus stops within the selected Riyadh neighborhood, revealing significant mobility gaps."
+img01: "An access and modal-share analysis highlights the dominance of private vehicles and the fragmented coverage of metro lines and bus stops within the selected Riyadh neighborhood, revealing significant mobility gaps."
 
-Img02: "A comparative scale study contrasts the Barcelona superblock with a typical Riyadh neighborhood block, illustrating the challenge of adapting human-scale mobility concepts to much larger urban parcels."
+img02: "A comparative scale study contrasts the Barcelona superblock with a typical Riyadh neighborhood block, illustrating the challenge of adapting human-scale mobility concepts to much larger urban parcels."
 
-Img03: "Shortest-path analysis maps pedestrian access from residential streets to public amenities such as metro stations, bus stops, parks, and schools, exposing inefficiencies in the existing network."
+img03: "Shortest-path analysis maps pedestrian access from residential streets to public amenities such as metro stations, bus stops, parks, and schools, exposing inefficiencies in the existing network."
 
-Img04: "Walking-distance buffers of 5, 7, and 10 minutes from transit nodes demonstrate extensive areas beyond reasonable pedestrian reach, reinforcing the need for alternative micro-mobility solutions."
+img04: "Walking-distance buffers of 5, 7, and 10 minutes from transit nodes demonstrate extensive areas beyond reasonable pedestrian reach, reinforcing the need for alternative micro-mobility solutions."
 
-Img05: "A proposed car-free green corridor network introduces shaded walkways, autonomous vehicles, and continuous pedestrian links, strategically looped to reconnect underserved zones."
+img05: "A proposed car-free green corridor network introduces shaded walkways, autonomous vehicles, and continuous pedestrian links, strategically looped to reconnect underserved zones."
 
-Img06: "An AI-agent simulation tool evaluates mobility choices between origin and destination points. Users can modify inputs and observe how different personas—defined by age, gender, and daily responsibilities—select among transport modes such as walking, car, taxi, autonomous vehicles, or the proposed green corridors. The system does not aim for predictive certainty but instead enables scenario testing and comparative behavioral insight."
+img06: "An AI-agent simulation tool evaluates mobility choices between origin and destination points. Users can modify inputs and observe how different personas—defined by age, gender, and daily responsibilities—select among transport modes such as walking, car, taxi, autonomous vehicles, or the proposed green corridors. The system does not aim for predictive certainty but instead enables scenario testing and comparative behavioral insight."
 
-Img07: "The project concludes with a transferable validation framework that supports early-stage decision-making, participatory discussion, and risk-aware mobility planning for car-centric cities transitioning toward micro-mobility and autonomous systems."
+img07: "The project concludes with a transferable validation framework that supports early-stage decision-making, participatory discussion, and risk-aware mobility planning for car-centric cities transitioning toward micro-mobility and autonomous systems."

@@ -1,0 +1,14 @@
+Desc: "How can land-based artistic experiments be monitored with scientific rigor over time?
+Land + Art is an ongoing, European-funded research project involving multiple universities across Europe, exploring intersections between land, art, sound, and material experimentation. The IARC contribution focuses on land-based practices in a rural context near Barcelona, where selected crops are cultivated as both biological experiments and material resources for architectural and product-based applications.
+
+As part of the research team, this work develops a temporal monitoring methodology to evaluate crop growth, interaction, and performance over a nine-month cultivation cycle. Satellite imagery, drone data, and environmental indices were used to track biological development, supporting interdisciplinary collaboration between architecture, agriculture, material research, and artistic practice."
+
+img01: "A temporal satellite-based visualization tracks crop growth from September to April 2025. Monthly imagery highlights distinct cultivation zones, each dedicated to a different plant species such as sunflower, barley, rice, and flax."
+
+img02: "Drone imagery was processed into point clouds using photogrammetry workflows, enabling spatial and volumetric analysis of crop conditions through 3D data extraction."
+
+img03: "Students from interdisciplinary backgrounds experiment with harvested crops to develop biomaterials and physical products, linking agricultural processes to material research and fabrication."
+
+img04: "A synthesized temporal diagram compares growth performance across twelve crop zones, quantifying production rates, water consumption, and seasonal variation over the nine-month cycle."
+
+img05: "The project demonstrates how remote sensing and temporal analysis can support long-term monitoring of land-based artistic and material research, bridging environmental data and design experimentation."

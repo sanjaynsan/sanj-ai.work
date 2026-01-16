@@ -3,18 +3,18 @@ This project analyzes public parking data from Barcelona to understand the spati
 
 Using a Python notebook, parking typologies and surface allocations were examined at multiple urban scales. The analysis reveals imbalances between district size, neighborhood character, and parking area consumption. By visualizing hidden capacity and congestion patterns, the project identifies leverage points relevant to mobility policy, public space reallocation, and future transport planning."
 
-Img01: "A city-scale map overlays all parking typologies across Barcelona, revealing spatial concentration patterns relative to urban density."
+img01: "A city-scale map overlays all parking typologies across Barcelona, revealing spatial concentration patterns relative to urban density."
 
-Img02: "District-level comparisons visualize total district area against the area allocated to parking, showing that parking provision is not proportional to district size but closely tied to historical urban form and mobility culture."
+img02: "District-level comparisons visualize total district area against the area allocated to parking, showing that parking provision is not proportional to district size but closely tied to historical urban form and mobility culture."
 
-Img03: "A breakdown of total parking surface by type highlights the dominance of car parking, followed by motorcycle parking and loading zones, indicating opportunities for spatial rebalancing."
+img03: "A breakdown of total parking surface by type highlights the dominance of car parking, followed by motorcycle parking and loading zones, indicating opportunities for spatial rebalancing."
 
-Img04: "Neighborhood-scale analysis reveals localized disparities in parking surface allocation, exposing areas with disproportionate loss of public space."
+img04: "Neighborhood-scale analysis reveals localized disparities in parking surface allocation, exposing areas with disproportionate loss of public space."
 
-Img05: "A count-based comparison of parking spaces by type shows motorcycles occupying the highest number of spaces, followed by cars, loading zones, and accessible parking, with bicycle parking remaining comparatively limited."
+img05: "A count-based comparison of parking spaces by type shows motorcycles occupying the highest number of spaces, followed by cars, loading zones, and accessible parking, with bicycle parking remaining comparatively limited."
 
-Img06: "District-level totals of parking space counts demonstrate how areas with smaller parking footprints can still accommodate high parking volumes through two-wheeler infrastructure."
+img06: "District-level totals of parking space counts demonstrate how areas with smaller parking footprints can still accommodate high parking volumes through two-wheeler infrastructure."
 
-Img07: "All bicycle parking locations are vectorized and mapped, enabling the identification of underserved and unserved areas across the city."
+img07: "All bicycle parking locations are vectorized and mapped, enabling the identification of underserved and unserved areas across the city."
 
-Img08: "The project concludes by framing parking data as a policy instrument, supporting data-informed decisions for reclaiming public space and rebalancing mobility priorities."
+img08: "The project concludes by framing parking data as a policy instrument, supporting data-informed decisions for reclaiming public space and rebalancing mobility priorities."

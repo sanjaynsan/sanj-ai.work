@@ -81,16 +81,36 @@ def detect_cover(folder_path, web_path):
 
 def detect_quote(folder_path):
     quote_file = os.path.join(folder_path, "quote.txt")
-    if os.path.exists(quote_file):
-        with open(quote_file, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-            quote = {}
-            for line in lines:
-                if ":" in line:
-                    key, value = line.split(":", 1)
-                    quote[key.strip()] = value.strip()
-            return quote
-    return {}
+    if not os.path.exists(quote_file):
+        return {}
+
+    quote = {}
+    current_key = None
+    buffer = []
+
+    with open(quote_file, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip()
+
+            # Match keys like Desc:, Img01:, img02:
+            match = re.match(r"^(Desc|Img\d+|img\d+)\s*:\s*(.*)", line)
+            if match:
+                # save previous block
+                if current_key:
+                    quote[current_key] = "\n\n".join(buffer).strip()
+
+                current_key = match.group(1)  # KEEP ORIGINAL CASE
+                buffer = [match.group(2)]
+            else:
+                if current_key:
+                    buffer.append(line)
+
+        # save last block
+        if current_key:
+            quote[current_key] = "\n\n".join(buffer).strip()
+
+    return quote
+
 
 
 # ==============================

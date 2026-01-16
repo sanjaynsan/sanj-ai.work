@@ -3,18 +3,18 @@ This research project develops a multi-scale computational framework to forecast
 
 The project combines environmental indices, spatial infrastructure data, and object detection models to support emergency preparedness and land-management decision-making. Operating across macro, meso, and micro scales, the system translates complex environmental intelligence into actionable insights for citizens, planners, and local authorities. The research culminates in a public-facing web application built on Google Earth Engine, enabling open access to wildfire risk awareness."
 
-Img01: "A global overview of recent wildfire events contextualizes the increasing frequency and geographic spread of fires across multiple regions."
+img01: "A global overview of recent wildfire events contextualizes the increasing frequency and geographic spread of fires across multiple regions."
 
-Img02: "A temporal data visualization highlights the rising number of wildfire-related fatalities over time, indicating an accelerating global risk trend."
+img02: "A temporal data visualization highlights the rising number of wildfire-related fatalities over time, indicating an accelerating global risk trend."
 
-Img03: "A narrative comic translates wildfire intelligence for different stakeholders, including insurance actors, local residents, community leaders, and urban planners, emphasizing varied preparedness needs."
+img03: "A narrative comic translates wildfire intelligence for different stakeholders, including insurance actors, local residents, community leaders, and urban planners, emphasizing varied preparedness needs."
 
-Img04: "The project framework is structured across three spatial scales—macro, meso, and micro—defining how data, analysis, and decision support adapt to different levels of intervention."
+img04: "The project framework is structured across three spatial scales—macro, meso, and micro—defining how data, analysis, and decision support adapt to different levels of intervention."
 
-Img05: "At the macro scale, NDVI and NDMI indices are correlated to identify global vegetation and moisture patterns associated with wildfire-prone regions, validated across multiple cities."
+img05: "At the macro scale, NDVI and NDMI indices are correlated to identify global vegetation and moisture patterns associated with wildfire-prone regions, validated across multiple cities."
 
-Img06: "At the meso scale, global environmental data is combined with local infrastructure datasets such as fire stations, hospitals, and water access points to generate regional wildfire vulnerability maps."
+img06: "At the meso scale, global environmental data is combined with local infrastructure datasets such as fire stations, hospitals, and water access points to generate regional wildfire vulnerability maps."
 
-Img07: "At the micro scale, satellite imagery and machine learning models trained in Roboflow detect community-level resources—such as swimming pools—that can act as emergency fire-response assets."
+img07: "At the micro scale, satellite imagery and machine learning models trained in Roboflow detect community-level resources—such as swimming pools—that can act as emergency fire-response assets."
 
-Img08: "The project concludes by demonstrating how multi-scale environmental intelligence can support community preparedness, equitable risk communication, and informed land-use decisions through an open, accessible digital platform."
+img08: "The project concludes by demonstrating how multi-scale environmental intelligence can support community preparedness, equitable risk communication, and informed land-use decisions through an open, accessible digital platform."

@@ -6,23 +6,23 @@ The resulting multi-criteria index enables a nuanced understanding of urban heat
 
 More information:https://blog.iaac.net/heat-archipelagos/"
 
-Img01: "CCVI – understanding global condition:
+img01: "CCVI – understanding global condition:
 In order to understand the global impact of heat, we studied the Climate—Conflict—Vulnerability Index (CCVI). It maps current global risks by integrating climate and conflict hazards with local vulnerabilities. CCVI is a scientifically informed tool that enables policymakers and researchers to assess and map current global risks to human security arising from climate and conflict hazards, their intersections and the potential for harmful interactions. Additionally, the CCVI reveals how vulnerabilities can amplify the impacts of climate and conflict hazards."
 
-Img02: "Based on the CCVI data, we visualize maps showing the places affected due to heat waves in world with respect to vulnerability."
+img02: "Based on the CCVI data, we visualize maps showing the places affected due to heat waves in world with respect to vulnerability."
 
-Img03: "In order to learn the effects more in detail, we started to use the urban scale lenses and pick the cities from the index."
+img03: "In order to learn the effects more in detail, we started to use the urban scale lenses and pick the cities from the index."
 
-Img04: "Urban Heat: A Spatial Perspective:
+img04: "Urban Heat: A Spatial Perspective:
 Drawing from case studies and insights from various research papers, our approach was structured around key elements, including Urban Heat Islands (UHI), urban form, sensitive layers, and relief systems. To effectively visualize these concepts, we selected cities that are significantly impacted, focusing on Rome as a representative example due to its high vulnerability within the European context. The city was systematically divided into grid cells measuring 300 x 300 meters, enabling detailed spatial analysis. Data manipulation and integration of diverse datasets were employed to achieve comprehensive insights. To illustrate the findings, heat archipelagos maps were developed using a monochromatic color scheme, effectively representing binary values within each dot to enhance clarity and interpretability."
 
-Img05: "Heat shapes of city – loop and repetition
+img05: "Heat shapes of city – loop and repetition
 The process of studying the cities ranked high by the CCV index started by creating images according to the presented process. Through a Python Script the map creation was automated and looped. The maps present the impacts of heat according to the parameters chosen in a binary manner."
 
-Img06: "Machine Learning and Clustering:
+img06: "Machine Learning and Clustering:
 Categorizing the maps was a huge task and the prowess of machine learning were quite insightful in this chapter. We started with unsupervised machine learning and feed with heat archipelagos map."
 
-Img07: "Major strategy of using the machine learning is to categorize the shapes of heat in the city. This was achieved by converting the binary maps of city into archipelagos (contour) model by grouping the points based on values."
+img07: "Major strategy of using the machine learning is to categorize the shapes of heat in the city. This was achieved by converting the binary maps of city into archipelagos (contour) model by grouping the points based on values."
 
-Img08: "Clusters and analysis:
+img08: "Clusters and analysis:
 One city from 5 clusters were picked and modeled as to study the distribution, concentration and other attributes of heat archipelagos in the city."
