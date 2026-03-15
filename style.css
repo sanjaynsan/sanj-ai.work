@@ -118,3 +118,44 @@ main {
   padding: 1rem;
 }
 
+/* Card hover overlay for index page */
+.project-card figcaption {
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  body {
+    padding-right: 10rem;
+  }
+  main {
+    padding-right: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-right: 0;
+    padding-top: 3rem;
+  }
+  main {
+    padding-right: 0;
+    flex-direction: column;
+  }
+  header {
+    padding-left: 1rem;
+    flex-wrap: wrap;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .filter {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+  #project-details img {
+    max-width: 100%;
+  }
+}
+

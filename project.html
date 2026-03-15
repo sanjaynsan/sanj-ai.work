@@ -4,102 +4,398 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project Details</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --accent: #7ecec1;
+      --bg-dark: #0a0a0f;
+      --bg-card: #111827;
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted: #475569;
+      --border: rgba(255,255,255,0.08);
+      --font-heading: 'Space Grotesk', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-dark);
+      color: var(--text-primary);
+      font-size: 16px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* ── TOP BAR ── */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.85rem 2.5rem;
+      background: rgba(10,10,15,0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .top-bar-left {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
+
+    .back-link {
+      font-family: var(--font-heading);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--accent); }
+
+    .top-bar-name {
+      font-family: var(--font-heading);
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      font-weight: 400;
+    }
+
+    /* ── PROJECT HERO ── */
+    .project-hero {
+      padding: 4rem 2.5rem 2.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .project-category {
+      display: inline-block;
+      font-family: var(--font-heading);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 0.3rem 0.8rem;
+      background: rgba(126,206,193,0.1);
+      border-radius: 20px;
+      border: 1px solid rgba(126,206,193,0.15);
+      margin-bottom: 1rem;
+    }
+
+    .project-title {
+      font-family: var(--font-heading);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+
+    .project-desc {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      line-height: 1.85;
+      max-width: 750px;
+    }
+
+    /* ── MEDIA SECTION ── */
+    .project-media {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2.5rem 3rem;
+    }
+
+    .media-item {
+      margin-bottom: 3rem;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .media-item.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .media-item img {
+      width: 100%;
+      max-width: 100%;
+      display: block;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .media-item iframe {
+      width: 100%;
+      height: 450px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .media-item embed {
+      width: 100%;
+      height: 600px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .media-item a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: opacity 0.2s;
+    }
+    .media-item a:hover { opacity: 0.7; }
+
+    .media-caption {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 0.75rem;
+      line-height: 1.6;
+      font-style: italic;
+    }
+
+    /* ── PREV / NEXT ── */
+    .prev-next {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 2.5rem 4rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .prev-next a {
+      font-family: var(--font-heading);
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      padding: 0.6rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+      max-width: 45%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .prev-next a:hover {
+      color: var(--text-primary);
+      border-color: var(--accent);
+      background: rgba(126,206,193,0.05);
+    }
+
+    /* ── FOOTER ── */
+    .project-footer {
+      text-align: center;
+      padding: 2rem 2.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .project-footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.82rem;
+      transition: color 0.2s;
+    }
+    .project-footer a:hover { color: var(--accent); }
+
+    .project-footer .copy {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+    }
+
+    /* ── LOADING STATE ── */
+    .loading-text {
+      text-align: center;
+      padding: 6rem 2rem;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    /* ── REVEAL ANIM CLASSES ── */
+    .reveal-up {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .top-bar { padding: 0.75rem 1rem; }
+      .project-hero { padding: 2.5rem 1.5rem 2rem; }
+      .project-media { padding: 0 1.5rem 2rem; }
+      .prev-next { padding: 1.5rem 1.5rem 3rem; flex-direction: column; }
+      .prev-next a { max-width: 100%; }
+      .media-item iframe { height: 280px; }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Sanjaykumar</h1>
-    
-    <nav>
-      <a href="index.html">Work</a>
-      <a href="skills.html">Skills</a>
-      <a href="awards.html">Awards</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
 
-  <main style="padding-right: 30rem;">
-    <section id="project-details">
-      <h2>Loading...</h2>
-    </section>
-  </main>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <a href="#" class="back-link" id="back-link">&larr; Back</a>
+    </div>
+    <span class="top-bar-name">Sanjay Kumar V</span>
+  </div>
+
+  <div id="project-content">
+    <p class="loading-text">Loading...</p>
+  </div>
+
+  <div class="prev-next" id="prev-next"></div>
+
+  <div class="project-footer">
+    <a href="gateway.html">Back to Portfolio</a>
+    <p class="copy">&copy; 2025 Sanjay Kumar V</p>
+  </div>
 
   <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const projectDetails = document.getElementById("project-details");
+    document.addEventListener("DOMContentLoaded", function () {
+      var params = new URLSearchParams(window.location.search);
+      var projectId = params.get("id");
+      var fromSite = params.get("from");
+
+      // Accent colors per sub-site
+      var accentMap = {
+        urban: "#7ecec1",
+        architecture: "#f2a7a7",
+        computation: "#c4b5fd"
+      };
+      if (fromSite && accentMap[fromSite]) {
+        document.documentElement.style.setProperty('--accent', accentMap[fromSite]);
+      }
+
+      // Back link
+      var backLink = document.getElementById("back-link");
+      var backLabel = {
+        urban: "Urban & Planetary",
+        architecture: "Architecture & Parametrism",
+        computation: "Computation & AI"
+      };
+      if (fromSite) {
+        backLink.href = fromSite + "/";
+        backLink.textContent = "\u2190 " + (backLabel[fromSite] || "Portfolio");
+      } else {
+        backLink.href = "index.html";
+        backLink.textContent = "\u2190 All Work";
+      }
 
       fetch("projects.json")
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error("Failed to load projects.json");
-          }
-          return response.json();
+        .then(function (r) {
+          if (!r.ok) throw new Error("Failed to load projects.json");
+          return r.json();
         })
-        .then((projects) => {
-          const params = new URLSearchParams(window.location.search);
-          const projectId = params.get("id");
-          const project = projects.find((p) => p.id === projectId);
+        .then(function (projects) {
+          var project = projects.find(function (p) { return p.id === projectId; });
+          var contentEl = document.getElementById("project-content");
 
-          if (project) {
-            const quote = project.quote || {};
-            // exclude the cover image from media shown in detail page
-            const cover = project.coverImage || "";
-            const mediaItems = (project.media || []).filter((m) => m.src !== cover);
-
-            // main description from quote file
-            const mainDesc = quote.Desc || "No description available.";
-
-            projectDetails.innerHTML = `
-              <h1>${project.title}</h1>
-              <p><strong>Category:</strong> ${project.category}</p>
-              <p>${mainDesc}</p>
-              ${mediaItems
-                .map((media, index) => {
-                  // quote keys might be img1, img01, img02 etc. check both formats
-                  const key1 = `img${index + 1}`;
-                  const key2 = `img0${index + 1}`;
-                  const description = quote[key1] || quote[key2] || "";
-
-                  if (media.type === "video") {
-                    return `
-                      <div style="margin-bottom: 2rem;">
-                        <iframe src="${media.src}" frameborder="0" allowfullscreen style="width:100%;height:400px;"></iframe>
-                        ${description ? `<p style="text-align:left;margin-top:0.5rem;">${description}</p>` : ""}
-                      </div>
-                    `;
-                  } else if (media.type === "pdf") {
-                    return `
-                      <div style="margin-bottom: 2rem;">
-                        <embed src="${media.src}" type="application/pdf" width="100%" height="600px">
-                        ${description ? `<p style="text-align:left;margin-top:0.5rem;">${description}</p>` : ""}
-                      </div>
-                    `;
-                  } else if (media.type === "link") {
-                    return `
-                      <div style="margin-bottom: 2rem;">
-                        <a href="${media.src}" target="_blank">${media.src}</a>
-                        ${description ? `<p style="text-align:left;margin-top:0.5rem;">${description}</p>` : ""}
-                      </div>
-                    `;
-                  } else {
-                    // image
-                    return `
-                      <div style="margin-bottom: 2rem;">
-                        <img src="${media.src}" alt="" style="display:block;max-width:100%;margin:0 auto;" />
-                        ${description ? `<p style="text-align:left;margin-top:0.5rem;">${description}</p>` : ""}
-                      </div>
-                    `;
-                  }
-                })
-                .join("")}
-            `;
-          } else {
-            projectDetails.innerHTML = "<p>Project not found.</p>";
+          if (!project) {
+            contentEl.innerHTML = '<p class="loading-text">Project not found.</p>';
+            return;
           }
+
+          document.title = project.title + " — Sanjay Kumar V";
+
+          var quote = project.quote || {};
+          var cover = project.coverImage || "";
+          var mediaItems = (project.media || []).filter(function (m) { return m.src !== cover; });
+          var mainDesc = quote.Desc || "No description available.";
+
+          // Build hero
+          var html = '<div class="project-hero">';
+          html += '<span class="project-category reveal-up">' + project.category + '</span>';
+          html += '<h1 class="project-title reveal-up">' + project.title + '</h1>';
+          html += '<p class="project-desc reveal-up">' + mainDesc + '</p>';
+          html += '</div>';
+
+          // Build media
+          html += '<div class="project-media">';
+          mediaItems.forEach(function (media, index) {
+            var key1 = "img" + (index + 1);
+            var key2 = "img0" + (index + 1);
+            var description = quote[key1] || quote[key2] || "";
+
+            html += '<div class="media-item">';
+
+            if (media.type === "video") {
+              html += '<iframe src="' + media.src + '" frameborder="0" allowfullscreen></iframe>';
+            } else if (media.type === "pdf") {
+              html += '<embed src="' + media.src + '" type="application/pdf">';
+            } else if (media.type === "link") {
+              html += '<a href="' + media.src + '" target="_blank" rel="noopener">' + media.src + '</a>';
+            } else {
+              html += '<img src="' + media.src + '" alt="" loading="lazy">';
+            }
+
+            if (description) {
+              html += '<p class="media-caption">' + description + '</p>';
+            }
+
+            html += '</div>';
+          });
+          html += '</div>';
+
+          contentEl.innerHTML = html;
+
+          // Prev / Next navigation within same category
+          var sameCat = projects
+            .filter(function (p) { return p.category === project.category; })
+            .sort(function (a, b) { return (a.order || 0) - (b.order || 0); });
+          var idx = sameCat.findIndex(function (p) { return p.id === project.id; });
+          var prevNextEl = document.getElementById("prev-next");
+          var fromParam = fromSite ? "&from=" + fromSite : "";
+
+          var prevHTML = idx > 0
+            ? '<a href="project.html?id=' + encodeURIComponent(sameCat[idx - 1].id) + fromParam + '">\u2190 ' + sameCat[idx - 1].title + '</a>'
+            : '<span></span>';
+          var nextHTML = idx < sameCat.length - 1
+            ? '<a href="project.html?id=' + encodeURIComponent(sameCat[idx + 1].id) + fromParam + '">' + sameCat[idx + 1].title + ' \u2192</a>'
+            : '<span></span>';
+          prevNextEl.innerHTML = prevHTML + nextHTML;
+
+          // Init scroll reveal for media items and hero elements
+          initScrollReveal();
         })
-        .catch((error) => {
-          projectDetails.innerHTML = `<p>Error loading project details: ${error.message}</p>`;
+        .catch(function (err) {
+          document.getElementById("project-content").innerHTML =
+            '<p class="loading-text">Error: ' + err.message + '</p>';
         });
+
+      function initScrollReveal() {
+        var els = document.querySelectorAll('.media-item, .reveal-up');
+        if (!('IntersectionObserver' in window)) {
+          els.forEach(function (el) { el.classList.add('visible'); });
+          return;
+        }
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              obs.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        els.forEach(function (el) { obs.observe(el); });
+      }
     });
   </script>
 </body>
