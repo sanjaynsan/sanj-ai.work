@@ -810,11 +810,11 @@
     ]
   },
   {
-    "id": "urban_07_land & art \u2014 temporal crop monitoring (research assistant)",
-    "title": "Land & Art \u2014 Temporal Crop Monitoring (Research Assistant)",
+    "id": "urban_07_land_art - temporal crop monitoring (research assistant)",
+    "title": "Land Art - Temporal Crop Monitoring (Research Assistant)",
     "category": "Urban Computation",
     "order": 7,
-    "coverImage": "projects/URBAN_07_Land & Art \u2014 Temporal Crop Monitoring (Research Assistant)/cover.gif",
+    "coverImage": "projects/URBAN_07_Land_Art - Temporal Crop Monitoring (Research Assistant)/cover.gif",
     "quote": {
       "Desc": "\"How can land-based artistic experiments be monitored with scientific rigor over time?\n\nLand + Art is an ongoing, European-funded research project involving multiple universities across Europe, exploring intersections between land, art, sound, and material experimentation. The IARC contribution focuses on land-based practices in a rural context near Barcelona, where selected crops are cultivated as both biological experiments and material resources for architectural and product-based applications.\n\n\n\nAs part of the research team, this work develops a temporal monitoring methodology to evaluate crop growth, interaction, and performance over a nine-month cultivation cycle. Satellite imagery, drone data, and environmental indices were used to track biological development, supporting interdisciplinary collaboration between architecture, agriculture, material research, and artistic practice.\"",
       "img01": "\"A temporal satellite-based visualization tracks crop growth from September to April 2025. Monthly imagery highlights distinct cultivation zones, each dedicated to a different plant species such as sunflower, barley, rice, and flax.\"",
@@ -826,27 +826,27 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/URBAN_07_Land & Art \u2014 Temporal Crop Monitoring (Research Assistant)/01_image.gif"
+        "src": "projects/URBAN_07_Land_Art - Temporal Crop Monitoring (Research Assistant)/01_image.gif"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_Land & Art \u2014 Temporal Crop Monitoring (Research Assistant)/02_image.png"
+        "src": "projects/URBAN_07_Land_Art - Temporal Crop Monitoring (Research Assistant)/02_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_Land & Art \u2014 Temporal Crop Monitoring (Research Assistant)/03_image.JPG"
+        "src": "projects/URBAN_07_Land_Art - Temporal Crop Monitoring (Research Assistant)/03_image.JPG"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_Land & Art \u2014 Temporal Crop Monitoring (Research Assistant)/04_image.jpg"
+        "src": "projects/URBAN_07_Land_Art - Temporal Crop Monitoring (Research Assistant)/04_image.jpg"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_Land & Art \u2014 Temporal Crop Monitoring (Research Assistant)/05_image.png"
+        "src": "projects/URBAN_07_Land_Art - Temporal Crop Monitoring (Research Assistant)/05_image.png"
       },
       {
         "type": "image",
-        "src": "projects/URBAN_07_Land & Art \u2014 Temporal Crop Monitoring (Research Assistant)/cover.gif"
+        "src": "projects/URBAN_07_Land_Art - Temporal Crop Monitoring (Research Assistant)/cover.gif"
       }
     ]
   }
