@@ -140,6 +140,29 @@
     })
     .catch(function (e) { console.error('projects.json load error', e); });
 
+  // ── TIMELINE AREA CLICK TOOLTIPS ──
+  function initTimelineAreas() {
+    var areas = document.querySelectorAll('[data-tip]');
+    areas.forEach(function (area) {
+      area.addEventListener('click', function (e) {
+        var tipId = 'tip-' + area.getAttribute('data-tip');
+        var tip = document.getElementById(tipId);
+        if (!tip) return;
+        document.querySelectorAll('.tl-area-tip.visible').forEach(function (t) {
+          if (t.id !== tipId) t.classList.remove('visible');
+        });
+        tip.classList.toggle('visible');
+        e.stopPropagation();
+      });
+    });
+    document.addEventListener('click', function () {
+      document.querySelectorAll('.tl-area-tip.visible').forEach(function (t) {
+        t.classList.remove('visible');
+      });
+    });
+  }
+  initTimelineAreas();
+
   function initReveal() {
     var els = document.querySelectorAll('.reveal');
     if (!('IntersectionObserver' in window)) {

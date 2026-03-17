@@ -2,7 +2,7 @@
 (function () {
   var words = [
     "Computational Designer",
-    "Urban Intelligence",
+    "Urban AI",
     "Generative AI",
     "AEC Automation"
   ];

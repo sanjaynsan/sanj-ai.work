@@ -53,6 +53,17 @@ body {
   animation: softFadeIn 1.5s ease forwards 0.3s;
 }
 
+.hero-profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 1.2rem;
+  opacity: 0;
+  animation: softFadeIn 1.5s ease forwards 0.3s;
+}
+
 .name {
   font-family: 'Space Grotesk', sans-serif;
   font-size: clamp(2.5rem, 6vw, 5rem);

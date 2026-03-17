@@ -93,6 +93,31 @@
     els.forEach(function (el) { obs.observe(el); });
   }
 
+  // ── TIMELINE AREA CLICK TOOLTIPS ──
+  function initTimelineAreas() {
+    var areas = document.querySelectorAll('[data-tip]');
+    areas.forEach(function (area) {
+      area.addEventListener('click', function (e) {
+        var tipId = 'tip-' + area.getAttribute('data-tip');
+        var tip = document.getElementById(tipId);
+        if (!tip) return;
+        // Close any other open tip
+        document.querySelectorAll('.tl-area-tip.visible').forEach(function (t) {
+          if (t.id !== tipId) t.classList.remove('visible');
+        });
+        tip.classList.toggle('visible');
+        e.stopPropagation();
+      });
+    });
+    // Close tips when clicking outside
+    document.addEventListener('click', function () {
+      document.querySelectorAll('.tl-area-tip.visible').forEach(function (t) {
+        t.classList.remove('visible');
+      });
+    });
+  }
+  initTimelineAreas();
+
   function initSkillBars() {
     var bars = document.querySelectorAll('.skill-bar-fill');
     if (!('IntersectionObserver' in window)) {
