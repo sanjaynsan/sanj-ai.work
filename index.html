@@ -2,122 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0;url=gateway.html">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Sanjay Kumar V — Computational Designer</title>
+  <meta name="description" content="Portfolio of Sanjay Kumar V, Computational Designer specializing in Urban Intelligence, Architecture, Generative AI and AEC Automation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="gateway.css">
 </head>
 <body>
-  <header>
-    <h1>Sanjaykumar</h1>
-    <nav>
-      <a href="index.html" class="active">Work</a>
-      <a href="skills.html">Skills</a>
-      <a href="awards.html">Awards</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="work">
-      <p style="padding-left: 2rem;">
-        <span class="filter active" data-category="All">All</span> /
-        <span class="filter" data-category="Urban Computation">Urban Computation</span> /
-        <span class="filter" data-category="Planetary Computation">Planetary Computation</span> /
-        <span class="filter" data-category="Fabrication">Fabrication</span> /
-        <span class="filter" data-category="Architecture">Architecture</span> /
-        <span class="filter" data-category="AEC Automation">AEC Automation</span> /
-        <span class="filter" data-category="AEC AI">AEC AI</span>
-      </p>
-      <div id="project-gallery" class="grid"></div>
-    </section>
-  </main>
+  <!-- Canvas covers the entire page -->
+  <canvas id="particle-canvas"></canvas>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const gallery = document.getElementById("project-gallery");
-      const filters = document.querySelectorAll(".filter");
+  <!-- HERO: full viewport -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <p class="hero-greeting">Welcome</p>
+      <h1 class="name">Sanjay Kumar V</h1>
+      <div class="typewriter-wrap">
+        <span class="typewriter-text" id="typewriter"></span>
+        <span class="cursor">|</span>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <p class="scroll-text">What would you like to explore?</p>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
 
-      fetch("projects.json")
-        .then((response) => response.json())
-        .then((projects) => {
-          // Display all projects initially (sorted by preferred category order)
-          const categoryOrder = [
-            'Urban Computation',
-            'Planetary Computation',
-            'Fabrication',
-            'Architecture',
-            'AEC Automation',
-            'AEC AI'
-          ];
+  <!-- CARDS: seamless continuation -->
+  <section class="cards-section" id="cards-section">
+    <div class="audience-cards" id="audience-cards">
 
-          function sortByCategoryOrder(list) {
-            const byCategory = {};
-            list.forEach(p => {
-              if (!byCategory[p.category]) byCategory[p.category] = [];
-              byCategory[p.category].push(p);
-            });
-            // within each category, sort by 'order' if available, else title
-            categoryOrder.forEach(cat => {
-              if (byCategory[cat]) {
-                byCategory[cat].sort((a,b) => (a.order || 0) - (b.order || 0) || a.title.localeCompare(b.title));
-              }
-            });
-            // flatten in categoryOrder, include any categories not listed at the end
-            const ordered = [];
-            categoryOrder.forEach(cat => {
-              if (byCategory[cat]) ordered.push(...byCategory[cat]);
-            });
-            // append categories not in categoryOrder
-            Object.keys(byCategory).forEach(cat => {
-              if (!categoryOrder.includes(cat)) ordered.push(...byCategory[cat].sort((a,b)=> (a.order||0)-(b.order||0)));
-            });
-            return ordered;
-          }
+      <a href="urban/" class="audience-card" data-accent="#7ecec1">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="28" width="8" height="16" fill="currentColor" opacity="0.9"/>
+            <rect x="14" y="20" width="8" height="24" fill="currentColor" opacity="0.7"/>
+            <rect x="24" y="12" width="8" height="32" fill="currentColor" opacity="0.9"/>
+            <rect x="34" y="22" width="10" height="22" fill="currentColor" opacity="0.6"/>
+            <line x1="4" y1="44" x2="44" y2="44" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Urban & Planetary</h2>
+        <p class="card-sub">Cities, data, climate &amp; computation</p>
+        <span class="card-arrow">&rarr;</span>
+      </a>
 
-          displayProjects(sortByCategoryOrder(projects));
+      <a href="architecture/" class="audience-card" data-accent="#f2a7a7">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 44 L24 8 L44 44" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+            <path d="M12 44 L24 20 L36 44" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.5"/>
+            <line x1="4" y1="44" x2="44" y2="44" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Architecture & Parametrism</h2>
+        <p class="card-sub">Space, structure, material &amp; craft</p>
+        <span class="card-arrow">&rarr;</span>
+      </a>
 
-          // Add filter functionality
-          filters.forEach((filter) => {
-            filter.addEventListener("click", (e) => {
-              const category = e.target.dataset.category;
+      <a href="computation/" class="audience-card" data-accent="#c4b5fd">
+        <div class="card-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="5" fill="currentColor"/>
+            <circle cx="8" cy="12" r="3" fill="currentColor" opacity="0.7"/>
+            <circle cx="40" cy="12" r="3" fill="currentColor" opacity="0.7"/>
+            <circle cx="8" cy="36" r="3" fill="currentColor" opacity="0.7"/>
+            <circle cx="40" cy="36" r="3" fill="currentColor" opacity="0.7"/>
+            <line x1="11" y1="12" x2="19" y2="20" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+            <line x1="37" y1="12" x2="29" y2="20" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+            <line x1="11" y1="36" x2="19" y2="28" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+            <line x1="37" y1="36" x2="29" y2="28" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+          </svg>
+        </div>
+        <h2 class="card-title">Computation &amp; AI</h2>
+        <p class="card-sub">Automation, tools, code &amp; intelligence</p>
+        <span class="card-arrow">&rarr;</span>
+      </a>
 
-              // Update active class for filters
-              filters.forEach((f) => f.classList.remove("active"));
-              e.target.classList.add("active");
+    </div>
 
-              // Filter projects — keep ordering consistent
-              if (category === "All") {
-                displayProjects(sortByCategoryOrder(projects));
-              } else {
-                const list = projects
-                  .filter((p) => p.category === category)
-                  .sort((a, b) => (a.order || 0) - (b.order || 0) || a.title.localeCompare(b.title));
-                displayProjects(list);
-              }
-            });
-          });
+    <a href="all-work.html" class="view-all-link">View all work &darr;</a>
+  </section>
 
-          function displayProjects(projects) {
-            gallery.innerHTML = ""; // Clear existing projects
-            projects.forEach((project) => {
-              const card = document.createElement("figure");
-              card.className = "project-card";
-              card.innerHTML = `
-                <img src="${project.coverImage}" alt="${project.title}">
-                <figcaption>
-                  <strong>${project.title}</strong><br>
-                  ${project.category}
-                </figcaption>
-              `;
-              card.addEventListener("click", () => {
-                window.location.href = `project.html?id=${project.id}`;
-              });
-              gallery.appendChild(card);
-            });
-          }
-        });
-    });
-  </script>
+  <script src="gateway.js"></script>
 </body>
 </html>
