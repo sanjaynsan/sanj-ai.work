@@ -1,7 +1,53 @@
 (function () {
+  // ── HERO SLIDESHOW — random sliding renders ──
+  function initSlideshow(projects) {
+    var covers = projects
+      .filter(function (p) {
+        return p.category === 'Architecture' && p.coverImage;
+      })
+      .map(function (p) { return '../' + p.coverImage; });
+
+    // Shuffle
+    for (var i = covers.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = covers[i]; covers[i] = covers[j]; covers[j] = tmp;
+    }
+
+    var container = document.getElementById('hero-slideshow');
+    if (!container || covers.length === 0) return;
+
+    // Create slide elements
+    var slides = [];
+    covers.forEach(function (src) {
+      var div = document.createElement('div');
+      div.className = 'hero-slide';
+      var img = document.createElement('img');
+      img.src = src;
+      img.alt = '';
+      div.appendChild(img);
+      container.appendChild(div);
+      slides.push(div);
+    });
+
+    var current = 0;
+    slides[0].classList.add('active');
+
+    setInterval(function () {
+      slides[current].classList.remove('active');
+      // Reset transform for smooth restart
+      slides[current].style.transform = 'scale(1)';
+      current = (current + 1) % slides.length;
+      // Force reflow before re-adding class
+      void slides[current].offsetWidth;
+      slides[current].style.transform = '';
+      slides[current].classList.add('active');
+    }, 4000);
+  }
+
   fetch('../projects.json')
     .then(function (r) { return r.json(); })
     .then(function (projects) {
+      initSlideshow(projects);
       var arch = projects
         .filter(function (p) { return p.category === 'Architecture'; })
         .sort(function (a, b) { return (a.order || 0) - (b.order || 0); });
@@ -15,10 +61,14 @@
         card.className = 'project-card reveal';
         var imgSrc = project.coverImage ? '../' + project.coverImage : '';
         card.innerHTML =
-          '<img src="' + imgSrc + '" alt="' + project.title + '" loading="lazy">' +
+          '<div class="img-wrapper"><img src="' + imgSrc + '" alt="' + project.title + '" loading="lazy"></div>' +
           '<div class="card-overlay"><p class="overlay-desc">' + project.category + '</p></div>' +
           '<div class="card-caption"><strong>' + project.title + '</strong>' +
           '<span class="card-tag">' + project.category + '</span></div>';
+        var wrapper = card.querySelector('.img-wrapper');
+        var img = wrapper.querySelector('img');
+        img.onload = function () { wrapper.classList.add('loaded'); };
+        if (img.complete) wrapper.classList.add('loaded');
         card.addEventListener('click', function () {
           window.location.href = '../project.html?id=' + encodeURIComponent(project.id) + '&from=architecture';
         });

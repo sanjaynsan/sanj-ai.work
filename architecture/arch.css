@@ -3,3 +3,13 @@
   --hero-start: #0f0808;
   --hero-end: #1a0d0d;
 }
+
+.subsite-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.subsite-hero .hero-content {
+  padding-top: 2rem;
+}

@@ -104,7 +104,8 @@ nav.subsite-nav a.active {
 /* ── HERO BANNER ── */
 
 .subsite-hero {
-  padding: 4rem 2.5rem 3rem;
+  padding: 6rem 2.5rem 5rem;
+  min-height: 340px;
   background: linear-gradient(135deg,
     var(--hero-start, #0a0a0f) 0%, var(--hero-end, #111827) 100%);
   border-bottom: 1px solid var(--border);
@@ -418,6 +419,110 @@ footer.subsite-footer {
   color: var(--text-muted);
 }
 
+/* ── IMAGE LOADING SPINNER ── */
+
+.project-card {
+  position: relative;
+}
+
+.project-card .img-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-card);
+  aspect-ratio: 16 / 9;
+}
+
+.project-card .img-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin: -12px 0 0 -12px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: imgSpin 0.7s linear infinite;
+  z-index: 1;
+  transition: opacity 0.3s;
+}
+
+.project-card .img-wrapper.loaded::before {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes imgSpin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── HERO CANVAS (subsites) ── */
+
+.subsite-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.subsite-hero canvas.hero-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.subsite-hero .hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Architecture hero slideshow */
+.hero-slideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.hero-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1.2s ease, transform 8s linear;
+  transform: scale(1);
+}
+
+.hero-slide.active {
+  opacity: 0.95;
+  transform: scale(1.08);
+}
+
+.hero-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(20%) brightness(0.7);
+}
+
+.hero-slideshow::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg,
+    var(--hero-start, #0a0a0f) 0%,
+    rgba(10, 10, 15, 0.4) 50%,
+    var(--hero-end, #111827) 100%);
+  z-index: 1;
+}
+
 /* ── REVEAL ANIMATIONS ── */
 
 .reveal {
@@ -482,7 +587,8 @@ footer.subsite-footer {
   }
 
   .subsite-hero {
-    padding: 2.5rem 1.5rem 2rem;
+    padding: 4rem 1.5rem 3rem;
+    min-height: 260px;
   }
 
   .section-title {

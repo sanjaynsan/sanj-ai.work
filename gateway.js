@@ -302,6 +302,111 @@
     }
   }
 
+  // ── Project preview on click ──
+  var projectCovers = [];
+  var previewContainer = null;
+  var activePreview = null;
+
+  // Fetch project covers for particle previews
+  fetch('projects.json')
+    .then(function (r) { return r.json(); })
+    .then(function (projects) {
+      projects.forEach(function (p) {
+        if (p.coverImage) {
+          projectCovers.push({ title: p.title, cover: p.coverImage, id: p.id });
+        }
+      });
+      // Preload a few images
+      projectCovers.slice(0, 10).forEach(function (pc) {
+        var img = new Image();
+        img.src = pc.cover;
+      });
+    })
+    .catch(function () { /* silently ignore */ });
+
+  // Create preview overlay container
+  previewContainer = document.createElement('div');
+  previewContainer.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:2;';
+  document.body.appendChild(previewContainer);
+
+  function isNearInteractiveElement(x, y) {
+    var padding = 60;
+    var els = document.querySelectorAll('.hero-content, .audience-card, .view-all-link, .scroll-hint');
+    for (var i = 0; i < els.length; i++) {
+      var rect = els[i].getBoundingClientRect();
+      if (x > rect.left - padding && x < rect.right + padding &&
+          y > rect.top - padding && y < rect.bottom + padding) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function findNearestParticle(x, y, maxDist) {
+    var best = null;
+    var bestDist = maxDist;
+    for (var i = 0; i < particles.length; i++) {
+      var dx = particles[i].x - x;
+      var dy = particles[i].y - y;
+      var d = Math.sqrt(dx * dx + dy * dy);
+      if (d < bestDist) {
+        bestDist = d;
+        best = particles[i];
+      }
+    }
+    return best;
+  }
+
+  function showProjectPreview(x, y) {
+    if (projectCovers.length === 0) return;
+    if (isNearInteractiveElement(x, y)) return;
+    if (activePreview) return; // one at a time
+
+    var proj = projectCovers[Math.floor(Math.random() * projectCovers.length)];
+    var particle = findNearestParticle(x, y, 80);
+    if (!particle) return;
+
+    var el = document.createElement('div');
+    var px = particle.x;
+    var py = particle.y;
+
+    // Offset so it doesn't cover the particle
+    var offX = (px > w * 0.5) ? -110 : 20;
+    var offY = (py > h * 0.5) ? -90 : 20;
+
+    el.style.cssText = 'position:absolute;pointer-events:none;' +
+      'left:' + (px + offX) + 'px;top:' + (py + offY) + 'px;' +
+      'width:90px;height:70px;border-radius:6px;overflow:hidden;' +
+      'opacity:0;transition:opacity 0.5s ease;' +
+      'border:1px solid rgba(255,255,255,0.08);' +
+      'box-shadow:0 4px 20px rgba(0,0,0,0.5);';
+
+    var img = document.createElement('img');
+    img.src = proj.cover;
+    img.alt = proj.title;
+    img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;filter:brightness(0.7) saturate(0.6);';
+    el.appendChild(img);
+
+    previewContainer.appendChild(el);
+    activePreview = el;
+
+    // Fade in
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        el.style.opacity = '0.45';
+      });
+    });
+
+    // Fade out and remove
+    setTimeout(function () {
+      el.style.opacity = '0';
+      setTimeout(function () {
+        if (el.parentNode) el.parentNode.removeChild(el);
+        if (activePreview === el) activePreview = null;
+      }, 600);
+    }, 1800);
+  }
+
   // ── Event listeners ──
   // Canvas is fixed at 0,0 so clientX/Y maps directly
   window.addEventListener('mousemove', function (e) {
@@ -324,6 +429,7 @@
       mouse.y = e.touches[0].clientY;
       mouse.active = true;
       burstFromCursor();
+      showProjectPreview(e.touches[0].clientX, e.touches[0].clientY);
     }
   });
 
@@ -335,9 +441,10 @@
     mouse.active = false;
   });
 
-  window.addEventListener('mousedown', function () {
+  window.addEventListener('mousedown', function (e) {
     mouseDown = true;
     burstFromCursor();
+    showProjectPreview(e.clientX, e.clientY);
   });
 
   window.addEventListener('mouseup', function () {
