@@ -102,6 +102,11 @@
   <section id="journey">
     <h2 class="section-title">Career Journey</h2>
     <div class="timeline-section">
+      <!--
+        Year scale: 2016.0 -> 2027.0 maps to 2% -> 94% (8.3636% per year).
+        SVG x = percent * 10, so the chart, the year ticks and the cards all
+        share one mapping. Keep them in sync when editing.
+      -->
       <div class="career-timeline">
         <div class="timeline-line"></div>
 
@@ -112,133 +117,166 @@
 
           <!-- EDUCATION AREAS (above baseline) -->
           <g class="tl-area-group">
-            <path class="tl-area-edu" data-tip="edu-sap" d="M 30,190 L 552,190 L 552,125
-              C 492,131 440,138 380,148
-              C 320,156 260,166 200,174
-              C 140,180 80,185 30,186 Z"/>
+            <path class="tl-area-edu" data-tip="edu-sap" d="M 20,190 L 433.2,190 L 433.2,150.6
+              C 412,154 383,157 354.5,160
+              C 328,163 298,166 270.9,168
+              C 245,170 220,172 187.3,175
+              C 135,180 85,184 20,186 Z"/>
           </g>
           <g class="tl-area-group">
-            <path class="tl-area-edu" data-tip="edu-hope" d="M 568,190 L 672,190 L 672,111
-              C 635,116 600,120 568,123 Z"/>
+            <path class="tl-area-edu" data-tip="edu-hope" d="M 443.2,190 L 521.8,190 L 521.8,130
+              C 495,137 462,145 443.2,148.8 Z"/>
           </g>
           <g class="tl-area-group">
-            <path class="tl-area-edu" data-tip="edu-mact" d="M 894,190 L 985,190 L 985,30
-              C 960,42 940,56 920,66
-              C 910,72 900,79 894,83 Z"/>
+            <path class="tl-area-edu" data-tip="edu-mact" d="M 689.1,190 L 772.7,190 L 772.7,48
+              C 744,80 715,112 689.1,118 Z"/>
           </g>
 
           <!-- WORK AREAS (below baseline, between baseline & progression line) -->
           <g class="tl-area-group">
-            <path class="tl-area-work" data-tip="work-arch" d="M 340,190 L 468,190 L 468,235
-              C 420,220 380,205 340,194 Z"/>
+            <path class="tl-area-work" data-tip="work-arch" d="M 270.9,190 L 349.5,190 L 349.5,224.1
+              C 328,216 298,204 270.9,194 Z"/>
           </g>
           <g class="tl-area-group">
-            <path class="tl-area-work" data-tip="work-free" d="M 478,190 L 530,190 L 530,255
-              C 510,248 495,242 478,237 Z"/>
+            <path class="tl-area-work" data-tip="work-free" d="M 359.5,190 L 396.3,190 L 396.3,244
+              C 384,239 369,233 359.5,228.2 Z"/>
           </g>
           <g class="tl-area-group">
-            <path class="tl-area-work" data-tip="work-smart" d="M 545,190 L 640,190 L 640,282
-              C 610,274 580,265 555,258
-              C 548,256 545,254 545,253 Z"/>
+            <path class="tl-area-work" data-tip="work-smart" d="M 438.2,190 L 516.8,190 L 516.8,286.2
+              C 495,279 466,268 438.2,258 Z"/>
           </g>
           <g class="tl-area-group">
-            <path class="tl-area-work" data-tip="work-dubai" d="M 655,190 L 830,190 L 830,350
-              C 790,345 740,330 700,315
-              C 675,305 660,298 655,295 Z"/>
+            <path class="tl-area-work" data-tip="work-dubai" d="M 526.8,190 L 689.1,190 L 689.1,330
+              C 664,326 633,318 605.5,312
+              C 580,306 550,297 526.8,289.4 Z"/>
+          </g>
+          <g class="tl-area-group">
+            <path class="tl-area-work" data-tip="work-iaac" d="M 772.7,190 L 814.5,190 L 814.5,350
+              C 802,348 787,345 772.7,342 Z"/>
+          </g>
+          <g class="tl-area-group">
+            <path class="tl-area-work" data-tip="work-dbf" d="M 877.3,190 L 933.3,190 L 933.3,368
+              C 918,366 897,363 877.3,360 Z"/>
           </g>
 
           <!-- EDUCATION PROGRESSION LINE -->
           <g class="tl-line-group">
-            <path class="tl-progression" d="M 30,186
-              C 80,184 140,180 200,174
-              C 260,166 320,156 380,148
-              C 440,140 500,132 560,124
-              C 600,118 640,114 680,110
-              C 740,104 790,98 840,92
-              C 870,86 905,72 935,52
-              C 960,38 978,32 985,30"/>
+            <path class="tl-progression" d="M 20,186
+              C 85,184 135,180 187.3,175
+              C 220,172 245,170 270.9,168
+              C 298,166 328,163 354.5,160
+              C 383,157 412,154 438.2,150
+              C 462,145 495,137 521.8,130
+              C 551,128 580,126 605.5,124
+              C 633,122 664,120 689.1,118
+              C 715,112 744,80 772.7,48"/>
           </g>
 
           <!-- WORK PROGRESSION LINE -->
           <g class="tl-line-group">
-            <path class="tl-progression" d="M 340,194
-              C 380,205 420,220 468,235
-              C 500,245 530,255 570,268
-              C 610,280 650,295 700,315
-              C 740,330 790,345 830,350"/>
+            <path class="tl-progression" d="M 270.9,194
+              C 298,204 328,216 354.5,226
+              C 369,233 384,239 396.3,244
+              C 410,249 425,254 438.2,258
+              C 466,268 495,279 521.8,288
+              C 550,297 580,306 605.5,312
+              C 633,318 664,326 689.1,330
+              C 717,334 748,339 772.7,342
+              C 787,345 802,348 814.5,350
+              C 828,352 843,354 856.4,356
+              C 863,357 871,358 877.3,360
+              C 897,363 918,366 933.3,368"/>
           </g>
 
         </svg>
 
+        <!-- World-event marker: ChatGPT public release, 30 Nov 2022 (day 334/365) -->
+        <div class="tl-event" style="left:59.84%">
+          <span class="tl-event-label">ChatGPT released<em>30 Nov 2022</em></span>
+        </div>
+
         <!-- Click tooltips -->
-        <div class="tl-area-tip" id="tip-edu-sap" style="left:18%;top:8px">
-          <div class="tip-title">School of Architecture & Planning</div>
+        <div class="tl-area-tip" id="tip-edu-sap" style="left:14%;top:8px">
+          <div class="tip-title">School of Architecture &amp; Planning</div>
           <div class="tip-place">Chennai | 2016 — 2021</div>
           <div class="tip-duration">5 years</div>
           Bachelor of Architecture with a focus on computational design. Five-year programme building foundations in spatial design, structural systems, and digital modelling.
         </div>
-        <div class="tl-area-tip" id="tip-edu-hope" style="left:55%;top:8px">
+        <div class="tl-area-tip" id="tip-edu-hope" style="left:40%;top:8px">
           <div class="tip-title">Hope Artificial Intelligence</div>
           <div class="tip-place">Coimbatore | 2021 — 2022</div>
           <div class="tip-duration">1 year</div>
           Data science, advanced machine learning, deep learning, and project-based learning. Bridging architecture with AI and computational methods.
         </div>
-        <div class="tl-area-tip" id="tip-edu-mact" style="right:0;top:8px">
-          <div class="tip-title">Master in City & Technology</div>
+        <div class="tl-area-tip" id="tip-edu-mact" style="left:64%;top:8px">
+          <div class="tip-title">Master in City &amp; Technology</div>
           <div class="tip-place">IAAC Barcelona | 2024 — 2025</div>
           <div class="tip-duration">1 year</div>
           Global earth imagery data collection and analysis, Agentic AI, RAG, Building as Graph. Awarded "Advanced Urban Computation Excellence" for the batch.
         </div>
-        <div class="tl-area-tip" id="tip-work-arch" style="left:30%;bottom:8px">
+        <div class="tl-area-tip" id="tip-work-arch" style="left:22%;bottom:8px">
           <div class="tip-title">Architectural Designer</div>
           <div class="tip-place">Mindspace Architects, Bangalore | 2019 — 2020</div>
           <div class="tip-duration">1 year</div>
           Worked on multiple large-scale schools and colleges. Architectural drawings, structural and design consultants discussions, initial design for large-scale projects.
         </div>
-        <div class="tl-area-tip" id="tip-work-free" style="left:42%;bottom:8px">
+        <div class="tl-area-tip" id="tip-work-free" style="left:32%;bottom:8px">
           <div class="tip-title">Freelance Computational Designer</div>
           <div class="tip-place">Super Design, Germany (Remote) | 2020</div>
           <div class="tip-duration">~6 months</div>
           ShapeDiver consultation. Automation of furniture designs into CNC fabrication with accurate precision, connected globally through digital platforms.
         </div>
-        <div class="tl-area-tip" id="tip-work-smart" style="left:52%;bottom:8px">
+        <div class="tl-area-tip" id="tip-work-smart" style="left:43%;bottom:8px">
           <div class="tip-title">Computational Designer</div>
           <div class="tip-place">Smartplan.ai, Australia (Remote) | 2021</div>
           <div class="tip-duration">1 year</div>
           Managed a team of three computational designers. Evolutionary solvers, office plan generators, reusable room libraries, and layout fitness evaluation.
         </div>
-        <div class="tl-area-tip" id="tip-work-dubai" style="left:66%;bottom:8px">
+        <div class="tl-area-tip" id="tip-work-dubai" style="left:55%;bottom:8px">
           <div class="tip-title">Design Technologist</div>
           <div class="tip-place">Hakken, Dubai (On-site) | 2022 — 2023</div>
           <div class="tip-duration">2 years</div>
           Research team in digital innovation. Guided generative framework for office layouts with end-to-end deliverables. Spatial data analytics for a 5 sq km master plan.
         </div>
+        <div class="tl-area-tip" id="tip-work-iaac" style="left:68%;bottom:8px">
+          <div class="tip-title">Research Assistant</div>
+          <div class="tip-place">IAAC Barcelona (On-site) | Jan 2025 — Jul 2025</div>
+          <div class="tip-duration">7 months</div>
+          Research assistant on satellite imagery-based crop monitoring — monitoring and documenting the plantations cultivated for the installation, using Google Earth Engine and Python.
+        </div>
+        <div class="tl-area-tip" id="tip-work-dbf" style="right:0;bottom:8px">
+          <div class="tip-title">AI Engineer Intern</div>
+          <div class="tip-place">Digital Blue Foam, Singapore (Remote) | Apr 2026 — Present</div>
+          <div class="tip-duration">Current role</div>
+          Contributing to Ontology — "a city that remembers" — a graph-based geospatial memory layer for cities built with Pydantic AI, giving cities persistent memory. Working alongside the engineering team.
+        </div>
 
         <!-- Year markers -->
         <div class="timeline-years">
-          <span class="timeline-year">2016</span>
-          <span class="timeline-year">2017</span>
-          <span class="timeline-year">2018</span>
-          <span class="timeline-year">2019</span>
-          <span class="timeline-year">2020</span>
-          <span class="timeline-year">2021</span>
-          <span class="timeline-year">2022</span>
-          <span class="timeline-year">2023</span>
-          <span class="timeline-year">2024</span>
-          <span class="timeline-year">2025</span>
+          <span class="timeline-year" style="left:2.00%">2016</span>
+          <span class="timeline-year" style="left:10.36%">2017</span>
+          <span class="timeline-year" style="left:18.73%">2018</span>
+          <span class="timeline-year" style="left:27.09%">2019</span>
+          <span class="timeline-year" style="left:35.45%">2020</span>
+          <span class="timeline-year" style="left:43.82%">2021</span>
+          <span class="timeline-year" style="left:52.18%">2022</span>
+          <span class="timeline-year" style="left:60.55%">2023</span>
+          <span class="timeline-year" style="left:68.91%">2024</span>
+          <span class="timeline-year" style="left:77.27%">2025</span>
+          <span class="timeline-year" style="left:85.64%">2026</span>
         </div>
 
         <!-- EDUCATION CARDS -->
-        <div class="tl-item edu" style="left:28%">
+        <div class="tl-item edu" data-tip="edu-sap" style="left:22.91%">
           <div class="tl-card">
-            <div class="tl-role">School of Architecture & Planning</div>
+            <div class="tl-role">School of Architecture &amp; Planning</div>
             <div class="tl-place">Chennai</div>
             <div class="tl-period">2016 — 2021</div>
           </div>
           <div class="tl-connector" style="height:30px"></div>
           <div class="tl-dot"></div>
         </div>
-        <div class="tl-item edu" style="left:60%">
+        <div class="tl-item edu" data-tip="edu-hope" style="left:48.00%">
           <div class="tl-card">
             <div class="tl-role">Hope Artificial Intelligence</div>
             <div class="tl-place">Coimbatore</div>
@@ -247,9 +285,9 @@
           <div class="tl-connector" style="height:30px"></div>
           <div class="tl-dot"></div>
         </div>
-        <div class="tl-item edu" style="left:93%">
+        <div class="tl-item edu" data-tip="edu-mact" style="left:73.09%">
           <div class="tl-card">
-            <div class="tl-role">Master in City & Technology</div>
+            <div class="tl-role">Master in City &amp; Technology</div>
             <div class="tl-place">IAAC Barcelona</div>
             <div class="tl-period">2024 — 2025</div>
           </div>
@@ -257,8 +295,8 @@
           <div class="tl-dot"></div>
         </div>
 
-        <!-- WORK CARDS -->
-        <div class="tl-item work" style="left:38%">
+        <!-- WORK CARDS — connector heights alternate so neighbours never collide -->
+        <div class="tl-item work" data-tip="work-arch" style="left:28.44%">
           <div class="tl-dot"></div>
           <div class="tl-connector" style="height:30px"></div>
           <div class="tl-card">
@@ -267,7 +305,7 @@
             <div class="tl-period">2019 — 2020</div>
           </div>
         </div>
-        <div class="tl-item work" style="left:49%">
+        <div class="tl-item work" data-tip="work-free" style="left:38.94%">
           <div class="tl-dot"></div>
           <div class="tl-connector" style="height:30px"></div>
           <div class="tl-card">
@@ -276,7 +314,7 @@
             <div class="tl-period">2020</div>
           </div>
         </div>
-        <div class="tl-item work" style="left:60%">
+        <div class="tl-item work" data-tip="work-smart" style="left:49.44%">
           <div class="tl-dot"></div>
           <div class="tl-connector" style="height:30px"></div>
           <div class="tl-card">
@@ -285,13 +323,31 @@
             <div class="tl-period">2021</div>
           </div>
         </div>
-        <div class="tl-item work" style="left:76%">
+        <div class="tl-item work" data-tip="work-dubai" style="left:60.55%">
           <div class="tl-dot"></div>
           <div class="tl-connector" style="height:30px"></div>
           <div class="tl-card">
             <div class="tl-role">Design Technologist</div>
             <div class="tl-place">Hakken, Dubai (On-site)</div>
             <div class="tl-period">2022 — 2023</div>
+          </div>
+        </div>
+        <div class="tl-item work" data-tip="work-iaac" style="left:79.36%">
+          <div class="tl-dot"></div>
+          <div class="tl-connector" style="height:30px"></div>
+          <div class="tl-card">
+            <div class="tl-role">Research Assistant</div>
+            <div class="tl-place">IAAC Barcelona</div>
+            <div class="tl-period">Jan — Jul 2025</div>
+          </div>
+        </div>
+        <div class="tl-item work" data-tip="work-dbf" style="left:90.49%">
+          <div class="tl-dot"></div>
+          <div class="tl-connector" style="height:30px"></div>
+          <div class="tl-card">
+            <div class="tl-role">AI Engineer Intern</div>
+            <div class="tl-place">Digital Blue Foam, Singapore (Remote)</div>
+            <div class="tl-period">Apr 2026 — Present</div>
           </div>
         </div>
 

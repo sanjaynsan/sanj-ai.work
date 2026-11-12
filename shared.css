@@ -9,6 +9,9 @@
   --text-secondary: #94a3b8;
   --text-muted: #475569;
   --border: rgba(255, 255, 255, 0.08);
+  /* world-event annotations on the timeline — deliberately not --accent, so they
+     read as outside context rather than part of the career track */
+  --marker: #f59e0b;
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
 }
@@ -532,8 +535,8 @@ footer.subsite-footer {
 
 .career-timeline {
   position: relative;
-  min-width: 800px;
-  height: 380px;
+  min-width: 1200px;
+  height: 400px;
   margin: 1.5rem 0;
 }
 
@@ -548,24 +551,23 @@ footer.subsite-footer {
   transform: translateY(-50%);
 }
 
-/* Year markers along the line */
+/* Year markers along the line — each placed on the shared year scale */
 .timeline-years {
   position: absolute;
   top: 50%;
   left: 0;
   right: 0;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2%;
+  height: 0;
 }
 
 .timeline-year {
   font-family: var(--font-heading);
   font-size: 0.65rem;
   color: var(--text-muted);
-  position: relative;
+  position: absolute;
   top: -14px;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .timeline-year::after {
@@ -580,11 +582,13 @@ footer.subsite-footer {
   opacity: 0.4;
 }
 
-/* Milestone items */
+/* Milestone items — pinned to the top/bottom edge so each side reads as one clean band */
 .tl-item {
   position: absolute;
   transform: translateX(-50%);
   cursor: pointer;
+  /* above .tl-chart so the progression lines pass behind the cards, not through the text */
+  z-index: 3;
 }
 
 /* Education — above the line */
@@ -598,7 +602,7 @@ footer.subsite-footer {
   left: 50%;
   width: 1px;
   background: var(--accent);
-  opacity: 0.4;
+  opacity: 0.25;
 }
 
 /* Work — below the line */
@@ -612,7 +616,7 @@ footer.subsite-footer {
   left: 50%;
   width: 1px;
   background: var(--accent);
-  opacity: 0.4;
+  opacity: 0.25;
 }
 
 /* The dot on the timeline */
@@ -643,7 +647,7 @@ footer.subsite-footer {
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 0.6rem 0.8rem;
-  width: 140px;
+  width: 120px;
   text-align: center;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
@@ -764,9 +768,11 @@ footer.subsite-footer {
 .tl-chart .tl-area-group:nth-child(2) { animation-delay: 0.5s; }
 .tl-chart .tl-area-group:nth-child(3) { animation-delay: 0.8s; }
 .tl-chart .tl-area-group:nth-child(4) { animation-delay: 0.3s; }
-.tl-chart .tl-area-group:nth-child(5) { animation-delay: 0.5s; }
-.tl-chart .tl-area-group:nth-child(6) { animation-delay: 0.7s; }
-.tl-chart .tl-area-group:nth-child(7) { animation-delay: 0.9s; }
+.tl-chart .tl-area-group:nth-child(5) { animation-delay: 0.45s; }
+.tl-chart .tl-area-group:nth-child(6) { animation-delay: 0.6s; }
+.tl-chart .tl-area-group:nth-child(7) { animation-delay: 0.75s; }
+.tl-chart .tl-area-group:nth-child(8) { animation-delay: 0.9s; }
+.tl-chart .tl-area-group:nth-child(9) { animation-delay: 1.05s; }
 
 .tl-chart .tl-line-group {
   animation: areaFadeIn 2s ease forwards;
@@ -829,6 +835,47 @@ footer.subsite-footer {
   font-size: 0.7rem;
   color: var(--accent);
   margin-bottom: 6px;
+}
+
+/* ── WORLD-EVENT MARKER (e.g. ChatGPT release) ── */
+
+/* Drops from above the chart down to the baseline only, so it never crosses
+   the work cards sitting below the line. Placed on the same year scale. */
+.tl-event {
+  position: absolute;
+  top: 15%;
+  bottom: 50%;
+  width: 0;
+  transform: translateX(-50%);
+  border-left: 1.5px dashed var(--marker);
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  animation: areaFadeIn 1.2s ease forwards 1.2s;
+}
+
+.tl-event-label {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  transform: translateX(-50%);
+  margin-bottom: 0.45rem;
+  white-space: nowrap;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--marker);
+}
+
+.tl-event-label em {
+  display: block;
+  font-style: normal;
+  font-size: 0.62rem;
+  font-weight: 400;
+  opacity: 0.75;
+  margin-top: 1px;
 }
 
 /* Section labels — big & bold, near chart centre */
@@ -941,13 +988,12 @@ footer.subsite-footer {
     padding: 1.5rem;
   }
 
+  /* min-width and card width now match the desktop values — only tighten what differs */
   .career-timeline {
-    min-width: 700px;
-    height: 360px;
+    height: 380px;
   }
 
   .tl-card {
-    width: 120px;
     padding: 0.5rem 0.6rem;
   }
 
